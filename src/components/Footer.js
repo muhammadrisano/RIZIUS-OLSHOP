@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import {Footer, Container, Row, Col} from 'reactstrap';
+import { Container, Row, Col} from 'reactstrap';
 
 class FooterPage extends Component  {
     render() { 
     return (
-      <Footer color="blue" className="font-small pt-4 mt-4">
+      <div color="blue" className="font-small pt-4 mt-4">
         <Container fluid className="text-center text-md-left">
           <Row>
             <Col md="6">
@@ -38,7 +38,7 @@ class FooterPage extends Component  {
             &copy; {new Date().getFullYear()} Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
           </Container>
         </div>
-      </Footer>
+      </div>
     );
   }
 }
