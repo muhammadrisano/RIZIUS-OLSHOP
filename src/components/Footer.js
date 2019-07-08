@@ -41,6 +41,7 @@ class FooterPage extends Component  {
       </div>
     );
   }
+
 }
-  
+
 export default FooterPage;
