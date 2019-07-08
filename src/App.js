@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
+import Home from './screens/Home'
+import Detail from './screens/Detail'
+import List from './screens/List'
+import Payment from './screens/Payment'
 
 
 class App extends Component {
@@ -10,7 +14,9 @@ class App extends Component {
         <div>
           <Route path='/' exact Component={Home} />
           <Route path='/detail' exact Component={Detail} />
-          <Router path='/list' exact Component={List} />
+          <Route path='/list' exact Component={List} />
+          <Route path='/payment' exact Component={Payment} />
+
         </div>
       </BrowserRouter>
     )
