@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FooterPage from './components/Footer';
+import FooterPage from './components/FooterPage';
 import { BrowserRouter, Route } from 'react-router-dom'
 import Home from './screens/Home'
 import Detail from './screens/Detail'
@@ -21,6 +21,6 @@ class App extends Component {
       </BrowserRouter>
     )
   }
-
 }
+
 export default App
