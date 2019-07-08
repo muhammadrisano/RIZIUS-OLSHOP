@@ -4,7 +4,7 @@ import Search from './search'
 function Navbar(props) {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" style={{ padding: 3 }}>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style={{ padding: 3 }}>
                 <ul style={{ listStyleType: 'none', marginRight: '80px' }} className={'navbar-nav ml-auto'}>
                     <li style={{ fontSize: 13, padding: 0, marginRight: 33 }}><Link style={{ color: "black", textDecoration: "none" }}>LEBIH MURAH DI APP</Link></li>
                     <li style={{ fontSize: 13, padding: 0, marginRight: 33 }}><Link style={{ color: "black", textDecoration: "none" }}>MENJADI SELLER</Link></li>
