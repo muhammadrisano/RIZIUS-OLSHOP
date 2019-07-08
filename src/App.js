@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import FooterPage from './components/Footer';
 import { BrowserRouter, Route } from 'react-router-dom'
 import Home from './screens/Home'
 import Detail from './screens/Detail'
 import List from './screens/List'
 import Payment from './screens/Payment'
-
 
 class App extends Component {
 
@@ -12,11 +12,11 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div>
-          <Route path='/' exact component={Home} />
-          <Route path='/detail' exact component={Detail} />
-          <Route path='/list' exact component={List} />
-          <Route path='/payment' exact component={Payment} />
-
+          <Route path='/' exact Component={Home} />
+          <Route path='/detail' exact Component={Detail} />
+          <Route path='/list' exact Component={List} />
+          <Route path='/payment' exact Component={Payment} />
+          <FooterPage />
         </div>
       </BrowserRouter>
     )
