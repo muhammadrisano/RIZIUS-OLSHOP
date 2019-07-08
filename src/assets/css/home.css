@@ -1,0 +1,17 @@
+.carousel{
+    height: 400px;
+}
+.body_promo{
+    background-color: orangered;
+  
+}
+.container-fluid{
+    padding: 0 80px !important;
+}
+.col-md-2{
+    padding: 0px 7px !important;
+}
+
+.carousel-item img{
+    height: 400px;
+}
