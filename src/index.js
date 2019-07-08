@@ -7,6 +7,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 import $ from 'jquery'
 import Popper from 'popper.js'
 import 'bootstrap/dist/js/bootstrap.bundle'
+// import '@fortawesome/fontawesome-free/css/all.min.css';
+// import 'bootstrap-css-only/css/bootstrap.min.css';
+
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
