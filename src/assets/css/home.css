@@ -1,8 +1,12 @@
+body{
+    background-color: whitesmoke !important;
+}
 .carousel{
     height: 400px;
 }
 .body_promo{
-    background-color: orangered;
+    background-color: rgb(241, 150, 30);
+    padding-bottom: 15px;
   
 }
 .container-fluid{
@@ -14,4 +18,51 @@
 
 .carousel-item img{
     height: 400px;
+}
+.body_promo .card{
+    border-width: 0px;
+    min-height: 250px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.body_promo .card:hover{
+   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.50);
+}
+.card .card-body{
+    background-color: rgb(89, 197, 230) !important;
+    color: white;
+    padding: 9px 1px;
+    text-align: center;
+}
+.card .card-body h5{
+    font-size: 18px;
+}
+.card .card-body p{
+    margin-top: -10px;
+    font-size: 12px;
+}
+.body_promo .iklan{
+    height: 150px;
+}
+.promo_terbaik h2{
+    color: white;
+    font-size: 24px;
+}
+.btn-icon-body{
+    color: red;
+    background-color: #ffffff !important;
+    margin-top: 20px;
+    border-radius: 20px !important;
+    min-width: 250px;
+    font-weight: bold !important;
+    text-align: left !important;
+    height: 40px;
+    overflow: hidden;
+}
+.btn-icon-body:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color: #a83737 !important;
+}
+.btn-icon-body img{
+    margin-right: 10px;
 }
