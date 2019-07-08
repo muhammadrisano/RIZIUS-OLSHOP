@@ -14,7 +14,7 @@ function Navbar(props) {
                     <li style={{ fontSize: 13, padding: 0, marginRight: 33 }}><Link style={{ color: "black", textDecoration: "none" }}>DAFTAR</Link></li>
                 </ul>
             </nav>
-            <div style={{ background: "white", paddingTop: 10, paddingBottom: 20, overflow: "hidden" }}>
+            <div style={{ background: "white", paddingTop: 10, paddingBottom: 20, overflow: "hidden",position:"fixed",marginTop:"25px",width:"100%",zIndex:100}}>
                 <div style={{ margin: '0px 6%' }}>
                     <div style={{ width: '16.5%', overflow: 'hidden', float: 'left' }}>
                         <Link class="navbar-brand" to={"#"} style={{ float: 'left' }}><img src={"http://laz-img-cdn.alicdn.com/images/ims-web/TB1Hs8GaMFY.1VjSZFnXXcFHXXa.png"} style={{ width: 128 }} alt={"gambar"} /></Link>
