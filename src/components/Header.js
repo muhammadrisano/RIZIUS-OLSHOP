@@ -5,6 +5,7 @@ import slide1 from '../assets/images/header/kisspng-computer-icons-system-inform
 import slide2 from '../assets/images/header/TB1a4CcXET1gK0jSZFhXXaAtVXa.png_1200x1200Q100.jpg_.webp'
 import slide3 from '../assets/images/header/TB1q1b4Xlr0gK0jSZFnXXbRRXXa.png_1200x1200Q100.jpg_.webp'
 import slide4 from '../assets/images/header/TB1Xgv5Xlr0gK0jSZFnXXbRRXXa.jpg_1200x1200Q100.jpg_.webp'
+import Sidebar from './Sidebar';
 
 
 
@@ -13,7 +14,7 @@ import slide4 from '../assets/images/header/TB1Xgv5Xlr0gK0jSZFnXXbRRXXa.jpg_1200
 const Header = () => {
     return (
         <div>
-
+            <Sidebar />
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
