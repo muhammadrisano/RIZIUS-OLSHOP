@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/home.css";
+
 
 const pstyle = {
   background: "#f36f36",
@@ -100,8 +100,6 @@ const blog = {
 }
 
 
-
-
 const FooterPage = () => {
   return (
    <div className="">
@@ -162,8 +160,8 @@ const FooterPage = () => {
           <div className="title">Go where your heart beats</div>
           <div className="text">Download the App</div>
         </div>
-        <img src="https://news-cdn.softpedia.com/images/news2/iPhone-Devs-Reminded-to-Use-App-Store-Badges-for-Increased-Visibility-of-their-App-2.png" width="120px" className="" href="http://bit.ly/lazada-ios-app" alt="" />
-        <img src="https://zello.com/wp-content/uploads/2018/08/google-play-badge.png" width="130px"className="" href="http://bit.ly/lazada-android-app" alt="" />
+        <a href="https://apps.apple.com/app/lazada-best-shopping-online/id785385147"><img src="https://news-cdn.softpedia.com/images/news2/iPhone-Devs-Reminded-to-Use-App-Store-Badges-for-Increased-Visibility-of-their-App-2.png" width="120px" className="" href="http://bit.ly/lazada-ios-app" alt="" /></a>
+        <a href="https://play.google.com/store/apps/details?id=com.lazada.android"><img src="https://zello.com/wp-content/uploads/2018/08/google-play-badge.png" width="130px"className="" href="http://bit.ly/lazada-android-app" alt="" /></a>
       </div>
       </div>
       <div className="footer-second">

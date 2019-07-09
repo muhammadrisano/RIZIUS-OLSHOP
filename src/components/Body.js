@@ -1,5 +1,6 @@
 import React from 'react'
 import Body_promo from './Body_promo'
+import CategoryList from './CategoryList';
 
 
 let Body = () => {
