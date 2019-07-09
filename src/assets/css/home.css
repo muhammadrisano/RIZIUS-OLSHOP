@@ -28,7 +28,7 @@ body{
 .body_promo .card:hover{
    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.50);
 }
-.card .card-body{
+.body_promo .card .card-body{
     background-color: rgb(89, 197, 230) !important;
     color: white;
     padding: 9px 1px;
@@ -60,9 +60,103 @@ body{
     overflow: hidden;
 }
 .btn-icon-body:hover{
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
     color: #a83737 !important;
 }
 .btn-icon-body img{
     margin-right: 10px;
+}
+.terpopuler{
+    margin-top: 20px;
+}
+.terpopuler h3{
+    font-size: 22px;
+}
+.terpopuler .col-2{
+    background-color: #ffffff !important;
+    padding: 0px 0px;
+}
+.terpopuler .populer-depan{
+    width: 150px;
+}
+.terpopuler .populer-depan img{
+    width: 150px;
+}
+.terpopuler .populer-child img{
+    width: 78px;
+}
+
+.populer-child p{
+    font-size: 13px;
+    color: gray;
+    margin-top: -5px;
+}
+.terpopuler .col-3{
+    background-color: #F9EAEA;
+    min-height: 110px;
+    border: 2px solid whitesmoke;
+}
+.koleksi{
+    margin-top: 30px;
+}
+.koleksi h3{
+    font-size: 22px;
+}
+.koleksi .col-3{
+    background-color: #ffffff;
+    border: 1px solid whitesmoke;
+    margin-bottom: 1px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.koleksi .koleksi-child{
+    text-align: center;
+}
+
+.koleksi-child p{
+    font-size: 13px;
+    color: gray;
+    margin-top: -5px;
+}
+
+.lazmall h3{
+    font-size: 22px;
+}
+.lazmall {
+    margin-top: 30px;
+}
+.lazmall .col-2{
+    padding: 2px 1px;
+    text-align: center;
+}
+.koleksi-child img{
+    width: 70px;
+}
+
+.koleksi .col-3:hover{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.75);
+}
+.lazmall .card{
+    height: 270px;
+}
+.lazmall .card img{
+    width: 160px;
+}
+.card-body p{
+    text-align: center;
+    color: grey;
+}
+.lazmall .card-body .card-title{
+    text-align: center;
+    font-size: 16px !important;
+    margin-top: -20px;
+}
+.card .card-head{
+    padding-top: 20px;
+    height: 186px;
+}
+.lazmall .card-body img{
+    width: 60px !important;
+    margin-top: -90px;
 }
