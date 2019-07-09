@@ -4,6 +4,7 @@ import BodyTerpopuler from './BodyTerpopuler'
 import BodyKoleksi from './BodyKoleksi';
 import BodyLazmall from './BodyLazmall';
 import BodyKategori from '../components/BodyKategori';
+import BodyUntukmu from '../components/BodyUntukmu'
 
 let Body = () => {
     return (
@@ -22,6 +23,7 @@ let Body = () => {
             <BodyKoleksi />
             <BodyLazmall />
             <BodyKategori />
+            <BodyUntukmu />
 
         </div>
     )

@@ -160,3 +160,104 @@ body{
     width: 60px !important;
     margin-top: -90px;
 }
+.kategori{
+    margin-top: 30px;
+}
+
+.kategori h3{
+font-size: 22px;
+}
+.kategori .card{
+    width: 148.8px;
+    height: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+.kategori .card:hover{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7)
+}
+.kategori img{
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kategori .card h5{
+    font-size: 15px !important;
+}
+.clear-left{
+        clear: left;
+}
+.untukmu{
+    margin-top: 30px;
+
+}
+.untukmu img{
+    width: 200px;
+
+}
+.untukmu h3{
+    font-size: 22px;
+}
+.untukmu .card{
+    height: 320px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+
+}
+.untukmu .card:hover{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+    
+}
+.untukmu .card .card-head{
+    height: 190px !important;
+    padding: 0px;
+    overflow: hidden;
+    color: blue;
+    border-block-end-color: red;
+
+}
+.untukmu .col-2{
+    padding: 3px;
+}
+.untukmu .card .card-body{
+    padding: 6px;
+    font-size: 14px;
+
+    
+}
+.untukmu .card .card-body h5{
+    font-size: 15px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif !important;
+   
+}
+.untukmu .card .card-body h4{
+    font-size: 19px;
+    color: #F57224;
+   
+   
+}
+.untukmu .card .card-body h6{
+    font-size: 10px;
+    color: #FACA51;
+
+   position: absolute;
+   bottom: 10px;
+   
+}
+.untukmu .card .card-body h6 span{
+    font-size: 11px;
+    color: gray;
+   
+   
+}
+.untukmu .card .card-body .card-kota{
+    font-size: 12px;
+    color: gray;
+    position: absolute;
+    right: 5px;
+    bottom: 15px;
+   
+   
+}
