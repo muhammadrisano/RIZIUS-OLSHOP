@@ -1,6 +1,10 @@
 import React from 'react'
 import Body_promo from './Body_promo'
-
+import BodyTerpopuler from './BodyTerpopuler'
+import BodyKoleksi from './BodyKoleksi';
+import BodyLazmall from './BodyLazmall';
+import BodyKategori from '../components/BodyKategori';
+import BodyUntukmu from '../components/BodyUntukmu'
 
 let Body = () => {
     return (
@@ -15,6 +19,12 @@ let Body = () => {
                     <div className="col-3"><button className="btn btn-icon-body"><img src="https://laz-img-cdn.alicdn.com/images/ims-web/TB19121e8Cw3KVjSZFuXXcAOpXa.png" width="33px" alt="" /> Global Collection</button></div>
                 </div>
             </div>
+            <BodyTerpopuler />
+            <BodyKoleksi />
+            <BodyLazmall />
+            <BodyKategori />
+            <BodyUntukmu />
+
         </div>
     )
 }

@@ -28,7 +28,7 @@ body{
 .body_promo .card:hover{
    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.50);
 }
-.card .card-body{
+.body_promo .card .card-body{
     background-color: rgb(89, 197, 230) !important;
     color: white;
     padding: 9px 1px;
@@ -60,9 +60,204 @@ body{
     overflow: hidden;
 }
 .btn-icon-body:hover{
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
     color: #a83737 !important;
 }
 .btn-icon-body img{
     margin-right: 10px;
+}
+.terpopuler{
+    margin-top: 20px;
+}
+.terpopuler h3{
+    font-size: 22px;
+}
+.terpopuler .col-2{
+    background-color: #ffffff !important;
+    padding: 0px 0px;
+}
+.terpopuler .populer-depan{
+    width: 150px;
+}
+.terpopuler .populer-depan img{
+    width: 150px;
+}
+.terpopuler .populer-child img{
+    width: 78px;
+}
+
+.populer-child p{
+    font-size: 13px;
+    color: gray;
+    margin-top: -5px;
+}
+.terpopuler .col-3{
+    background-color: #F9EAEA;
+    min-height: 110px;
+    border: 2px solid whitesmoke;
+}
+.koleksi{
+    margin-top: 30px;
+}
+.koleksi h3{
+    font-size: 22px;
+}
+.koleksi .col-3{
+    background-color: #ffffff;
+    border: 1px solid whitesmoke;
+    margin-bottom: 1px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.koleksi .koleksi-child{
+    text-align: center;
+}
+
+.koleksi-child p{
+    font-size: 13px;
+    color: gray;
+    margin-top: -5px;
+}
+
+.lazmall h3{
+    font-size: 22px;
+}
+.lazmall {
+    margin-top: 30px;
+}
+.lazmall .col-2{
+    padding: 2px 1px;
+    text-align: center;
+}
+.koleksi-child img{
+    width: 70px;
+}
+
+.koleksi .col-3:hover{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.75);
+}
+.lazmall .card{
+    height: 270px;
+}
+.lazmall .card img{
+    width: 160px;
+}
+.card-body p{
+    text-align: center;
+    color: grey;
+}
+.lazmall .card-body .card-title{
+    text-align: center;
+    font-size: 16px !important;
+    margin-top: -20px;
+}
+.card .card-head{
+    padding-top: 20px;
+    height: 186px;
+}
+.lazmall .card-body img{
+    width: 60px !important;
+    margin-top: -90px;
+}
+.kategori{
+    margin-top: 30px;
+}
+
+.kategori h3{
+font-size: 22px;
+}
+.kategori .card{
+    width: 148.8px;
+    height: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+.kategori .card:hover{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7)
+}
+.kategori img{
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kategori .card h5{
+    font-size: 15px !important;
+}
+.clear-left{
+        clear: left;
+}
+.untukmu{
+    margin-top: 30px;
+
+}
+.untukmu img{
+    width: 200px;
+
+}
+.untukmu h3{
+    font-size: 22px;
+}
+.untukmu .card{
+    height: 320px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+
+}
+.untukmu .card:hover{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+    
+}
+.untukmu .card .card-head{
+    height: 190px !important;
+    padding: 0px;
+    overflow: hidden;
+    color: blue;
+    border-block-end-color: red;
+
+}
+.untukmu .col-2{
+    padding: 3px;
+}
+.untukmu .card .card-body{
+    padding: 6px;
+    font-size: 14px;
+
+    
+}
+.untukmu .card .card-body h5{
+    font-size: 15px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif !important;
+   
+}
+.untukmu .card .card-body h4{
+    font-size: 19px;
+    color: #F57224;
+   
+   
+}
+.untukmu .card .card-body h6{
+    font-size: 10px;
+    color: #FACA51;
+
+   position: absolute;
+   bottom: 10px;
+   
+}
+.untukmu .card .card-body h6 span{
+    font-size: 11px;
+    color: gray;
+   
+   
+}
+.untukmu .card .card-body .card-kota{
+    font-size: 12px;
+    color: gray;
+    position: absolute;
+    right: 5px;
+    bottom: 15px;
+   
+   
 }
