@@ -10,6 +10,13 @@ const paragraf1 = {
 const paragraf2 = {
     textAlign: "justify",
 }
+const popularitas = {
+    display: "block", 
+    opacity: "",
+}
+const unselectable = {
+    userSelect: "none",
+}
 
 function text(text) {
     if (text.length > 25) {
@@ -54,6 +61,35 @@ class CategoryList extends Component {
         </div>
         
             <Container>
+            <div class="c3wo-b" data-spm-anchor-id="a2o4j.searchlistcategory.0.i1.cf3e9fe318eWLh">
+                <div class="c3hhWj">
+                    <h5><b>Handphone</b></h5>
+                    <div class="">
+                        <div class=" c1DXz4">
+                            <span>19243 barang ditemukan dalam </span><span>Handphone</span><span></span>
+                        </div>
+                    </div>
+                </div>
+            <div class="c3Cd9k">
+                <div class="c2pQcz">
+                    <div class="c3o2ls">Urutkan berdasarkan:</div>
+                        <div class="c3trXJ">
+                            <div class="ant-select-lg c3ypa1 ant-select ant-select-enabled">
+                                <div class="ant-select-selection ant-select-selection--single" role="combobox" aria-autocomplete="list"        aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                    <div class="ant-select-selection__rendered">
+                                        <div class="ant-select-selection-selected-value" title="Popularitas" style={popularitas}>
+                                            <div data-spm-click="gostr=/lzdse.result.sort;locaid=d1">Popularitas</div>
+                                        </div>
+                                    </div><span class="ant-select-arrow" unselectable="unselectable" style={unselectable}><b></b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c1VR7D">Lihat:</div>
+                        <div class="c2tv0r"><span data-spm-click="gostr=/lzdse.result.list_grid;locaid=grid"><i class="lzd-search-common-icon ic-common-grid c3LmXO c1f9Rm"></i></span><span data-spm-click="gostr=/lzdse.result.list_grid;locaid=list"><i class="lzd-search-common-icon ic-common-list c3LmXO "></i></span>
+                        </div>
+                    </div>
+                 </div>
+            </div>
                 <Row>
                   {categoryList.map((item, index) => 
                   <Col md={3}>
