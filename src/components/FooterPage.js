@@ -1,11 +1,11 @@
 import React from "react";
-import "../assets/css/home.css";
+
 
 const pstyle = {
   background: "#f36f36",
   display: "inline-block",
   color: "#0F136D",
-  padding: " 2px 4px",
+  padding:" 2px 4px",
   cursor: "pointer",
 }
 const logoLazada = {
@@ -14,7 +14,7 @@ const logoLazada = {
 }
 const payment1 = {
   backgroundPosition: "-768px -768px",
-  width: "70px",
+  width:"70px",
   height: "px",
   backgroundSize: "px",
 }
@@ -100,22 +100,19 @@ const blog = {
 }
 
 
-
-
 const FooterPage = () => {
   return (
     <div className="container-fluid footer">
-      <div>
         <div className="row">
           <div className="col-3">
             <div className="pertama">
               <h3 className="">Layanan Pelanggan</h3>
-              <ul className="footer-list">
-                <li className="footer-li"><a href="//www.lazada.co.id/helpcenter/">Pusat Bantuan</a></li>
-                <li className="footer-li" data-spm-anchor-id="a2o4j.home.footer_top.i0.57994ceeNnwjwj"><a href="//www.lazada.co.id/helpcenter/payments/">Cara Pembelian</a></li>
-                <li className="footer-li"><a href="//www.lazada.co.id/helpcenter/shipping-and-delivery/">Pengiriman</a></li>
-                <li className="footer-li"><a href="//www.lazada.co.id/helpcenter/products-on-lazada/#answer-faq-internationalproduct-ans">Kebijakan Produk Internasional</a></li>
-                <li className="footer-li"><a href="//www.lazada.co.id/helpcenter/returns-refunds/#answer-faq-return-ans">Cara Pengembalian</a></li>
+                <ul className="footer-list">
+                  <li className="footer-li"><a href="//www.lazada.co.id/helpcenter/">Pusat Bantuan</a></li>
+                  <li className="footer-li" data-spm-anchor-id="a2o4j.home.footer_top.i0.57994ceeNnwjwj"><a href="//www.lazada.co.id/helpcenter/payments/">Cara Pembelian</a></li>
+                  <li className="footer-li"><a href="//www.lazada.co.id/helpcenter/shipping-and-delivery/">Pengiriman</a></li>
+                  <li className="footer-li"><a href="//www.lazada.co.id/helpcenter/products-on-lazada/#answer-faq-internationalproduct-ans">Kebijakan Produk Internasional</a></li>
+                  <li className="footer-li"><a href="//www.lazada.co.id/helpcenter/returns-refunds/#answer-faq-return-ans">Cara Pengembalian</a></li>
                 <div className="">
                   <a style={pstyle} href="/">Ada pertanyaan? Hubungi kami di live chat (24 Jam)</a>
                 </div>
@@ -125,40 +122,22 @@ const FooterPage = () => {
           <div className="col-3">
             <div className="lzd-footer-width-25">
               <h3 className="footer-title">Jelajahi Lazada</h3>
-              <ul className="footer-list">
-                <li className="footer-li">
-                  <a href="//www.lazada.co.id/about/">Tentang Lazada</a>
-                </li>
-                <li className="footer-li">
-                  <a href="//www.lazada.co.id/lazada-affiliate-program/">Afﬁliate Program</a>
-                </li>
-                <li className="footer-li">
-                  <a href="//www.lazada.com/work-at-lazada/">Karir</a>
-                </li>
-                <li className="footer-li">
-                  <a href="//www.lazada.co.id/terms-of-use/">Syarat &amp; Ketentuan</a>
-                </li>
-                <li className="footer-li">
-                  <a href="//www.lazada.co.id/privacy-policy/">Kebijakan Privasi</a>
-                </li>
-                <li className="footer-li">
-                  <a href="//www.lazada.co.id/press/">Press &amp; Media</a>
-                </li>
-                <li className="footer-li">
-                  <a href="https://www.lazada.co.id/marketplace/">Jual Di Lazada</a>
-                </li>
-                <li className="footer-li">
-                  <a href="//www.lazada.co.id/security/">Lazada Security</a>
-                </li>
-                <li className="footer-li">
-                  <a href="https://redmart.com/">Redmart</a>
-                </li>
-                <li className="footer-li">
-                  <a href="https://pages.lazada.co.id/wow/i/id/LandingPage/IPR">Intellectual Property Protection</a>
-                </li>
-              </ul>
+                 <ul className="footer-list">
+                   <li className="footer-li"><a href="//www.lazada.co.id/about/">Tentang Lazada</a></li>
+                   <li className="footer-li"><a href="//www.lazada.co.id/lazada-affiliate-program/">Afﬁliate Program</a></li>
+                   <li className="footer-li"><a href="//www.lazada.com/work-at-lazada/">Karir</a></li>
+                   <li className="footer-li"><a href="//www.lazada.co.id/terms-of-use/">Syarat &amp; Ketentuan</a></li>
+                   <li className="footer-li"><a href="//www.lazada.co.id/privacy-policy/">Kebijakan Privasi</a></li>
+                   <li className="footer-li"><a href="//www.lazada.co.id/press/">Press &amp; Media</a></li>
+                   <li className="footer-li"><a href="https://www.lazada.co.id/marketplace/">Jual Di Lazada</a></li>
+                   <li className="footer-li"><a href="//www.lazada.co.id/security/">Lazada Security</a></li>
+                   <li className="footer-li"><a href="https://redmart.com/">Redmart</a></li>
+                   <li className="footer-li">
+                   <a href="https://pages.lazada.co.id/wow/i/id/LandingPage/IPR">Intellectual Property Protection</a>
+                   </li>
+                 </ul>
+              </div>
             </div>
-          </div>
           <div className="col-3">
             <div className="lzd-footer-width-50">
               <div className="lzd-footer-app-downloads">
@@ -167,139 +146,122 @@ const FooterPage = () => {
                 </div>
                 <div className="pull-left lzd-app-download-text">
                   <div className="title">Go where your heart beats</div>
-                  <div className="text">Download the App</div>
+                    <div className="text">Download the App</div>
                 </div>
-
               </div>
             </div>
           </div>
-
           <div className="col-3">
-
             <img src="https://news-cdn.softpedia.com/images/news2/iPhone-Devs-Reminded-to-Use-App-Store-Badges-for-Increased-Visibility-of-their-App-2.png" width="120px" className="" href="http://bit.ly/lazada-ios-app" alt="" />
             <img src="https://zello.com/wp-content/uploads/2018/08/google-play-badge.png" width="130px" className="" href="http://bit.ly/lazada-android-app" alt="" />
-
           </div>
-
-
-
         </div>
-        <div className="row bg-white">
-          <div className="col-3">
-            <div className="footer-second">
-              <div className="lzd-footer-inner">
-                <div className="lzd-footer-width-50">
-                  <h3 className="lzd-footer-h3" data-spm-anchor-id="a2o4j.home.1056575960.i1.57994ceeNnwjwj">Metode Pembayaran</h3>
-                  <img className="lzd-icon-payment lzd-footer-sprit" style={payment1} src="https://www.visa.bidroom.com/assets/img/visa-logo.png" alt="" />
-                  <img className="lzd-icon-payment lzd-footer-sprit" style={payment2} src="https://img.etimg.com/thumb/height-480,width-640,imgsize-114814,msid-60955286/.jpg" alt="" />
-                  <img className="lzd-icon-payment lzd-footer-sprit" style={payment3} src="https://previews.123rf.com/images/roxanabalint/roxanabalint1503/roxanabalint150300270/38208522-promotional-label-sticker-or-stamp-for-cash-on-delivery-on-white-vector-illustration.jpg" alt="" />
+          <div className="row bg-white">
+            <div className="col-3">
+              <div className="footer-second">
+                <div className="lzd-footer-inner">
+                  <div className="lzd-footer-width-50">
+                    <h3 className="lzd-footer-h3" data-spm-anchor-id="a2o4j.home.1056575960.i1.57994ceeNnwjwj">Metode Pembayaran</h3>
+                      <img className="lzd-icon-payment lzd-footer-sprit" style={payment1} src="https://www.visa.bidroom.com/assets/img/visa-logo.png" alt="" />
+                      <img className="lzd-icon-payment lzd-footer-sprit" style={payment2} src="https://img.etimg.com/thumb/height-480,width-640,imgsize-114814,msid-60955286/.jpg" alt="" />
+                      <img className="lzd-icon-payment lzd-footer-sprit" style={payment3} src="https://previews.123rf.com/images/roxanabalint/roxanabalint1503/roxanabalint150300270/38208522-promotional-label-sticker-or-stamp-for-cash-on-delivery-on-white-vector-illustration.jpg" alt="" />
+                  </div>
                 </div>
-
-
-
-
               </div>
             </div>
-          </div>
-          <div className="col-3"></div>
-          <div className="col-3"><div className="lzd-footer-width-25">
-            <h3 className="lzd-footer-h3">Jasa Pengiriman</h3>
-            <img className="lzd-icon-delivery lzd-footer-sprit lzd-footer-sprit-id " alt="Lazada Express" style={pengiriman1} src="http://s.kaskus.id/images/2016/02/10/8089634_20160210110450.jpg" />
-            <img className="lzd-icon-delivery lzd-footer-sprit lzd-footer-sprit-id " alt="JNE" style={pengiriman2} src="https://awsimages.detik.net.id/community/media/visual/2018/11/22/b2e0f558-ae89-45ea-a782-b9d4ee28ebe3.png?w=780&q=90" />
-            <img className="lzd-icon-delivery lzd-footer-sprit lzd-footer-sprit-id " alt="Ninja Express" style={pengiriman3} src="https://i2.wp.com/seismicell.com/wp-content/uploads/2018/05/logo.png?resize=1000%2C426&ssl=1" />
-            <img className="lzd-icon-delivery lzd-footer-sprit lzd-footer-sprit-id " alt="GoSend" style={pengiriman4} src="http://cdn.elevenia.co.id/g/0/1/6/5/8/1/24016581_B.jpg" />
-            <img className="lzd-icon-delivery lzd-footer-sprit lzd-footer-sprit-id " alt="Sicepat" style={pengiriman5} src="http://sicepat.com/application/websicepat/assets/img/logo-main.png" />
-            <img className="lzd-icon-delivery lzd-footer-sprit lzd-footer-sprit-id " alt="Grab Parcel" style={pengiriman6} src="http://www.majalahict.com/wp-content/uploads/2017/11/grab.png" />
-          </div></div>
-          <div className="col-3">
+           <div className="col-3"></div>
+            <div className="col-3"><div className="lzd-footer-width-25">
+              <h3 className="lzd-footer-h3">Jasa Pengiriman</h3>
+                <img className="lzd-icon-delivery lzd-footer-sprit lzd-footer-sprit-id " alt="Lazada Express" style={pengiriman1} src="http://s.kaskus.id/images/2016/02/10/8089634_20160210110450.jpg" />
+                <img className="lzd-icon-delivery lzd-footer-sprit lzd-footer-sprit-id " alt="JNE" style={pengiriman2} src="https://awsimages.detik.net.id/community/media/visual/2018/11/22/b2e0f558-ae89-45ea-a782-b9d4ee28ebe3.png?w=780&q=90" />
+                <img className="lzd-icon-delivery lzd-footer-sprit lzd-footer-sprit-id " alt="Ninja Express" style={pengiriman3} src="https://i2.wp.com/seismicell.com/wp-content/uploads/2018/05/logo.png?resize=1000%2C426&ssl=1" />
+                <img className="lzd-icon-delivery lzd-footer-sprit lzd-footer-sprit-id " alt="GoSend" style={pengiriman4} src="http://cdn.elevenia.co.id/g/0/1/6/5/8/1/24016581_B.jpg" />
+                <img className="lzd-icon-delivery lzd-footer-sprit lzd-footer-sprit-id " alt="Sicepat" style={pengiriman5} src="http://sicepat.com/application/websicepat/assets/img/logo-main.png" />
+                <img className="lzd-icon-delivery lzd-footer-sprit lzd-footer-sprit-id " alt="Grab Parcel" style={pengiriman6} src="http://www.majalahict.com/wp-content/uploads/2017/11/grab.png" />
+            </div>
+           </div>
+           <div className="col-3">
             <div className="lzd-footer-width-25">
               <h3 className="lzd-footer-h3">Verified by</h3>
-              <img className="lzd-footer-sprit" style={verified} alt="" src="http://www.traffics.de/wp-content/uploads/2016/07/PCI-06.16.png" />
-            </div></div>
-        </div>
+                <img className="lzd-footer-sprit" style={verified} alt="" src="http://www.traffics.de/wp-content/uploads/2016/07/PCI-06.16.png" />
+            </div>
+           </div>
+          </div>
         {/* ======== */}
-
-
-
         <div className="text-footer">
           <div className="row">
             <div className="col-3">
               <h5 className="lzd-footer-title">Online Shopping Mall Terkemuka di Indonesia</h5>
-              <p className="particle">Lazada adalah perintis e-commerce (online shopping) di beberapa negara dengan pertumbuhan tercepat di dunia yang menawarkan pengalaman belanja online cepat, aman dan nyaman dengan produk-produk dalam kategori mulai dari fashion, peralatan elektronik, peralatan rumah tangga, mainan anak-anak dan peralatan olahraga. Lazada selalu berjuang untuk memberikan pelanggan yang terbaik termasuk dengan menawarkan beberapa metode pembayaran, pengembalian gratis, layanan konsumen yang baik dan garansi komitmen. Sebagai situs belanja online terbaik di Indonesia, Lazada.co.id selalu menyediakan deretan produk tak terhitung jumlahnya yang selalu di update tiap hari. Kami selalu memastikan bahwa anda mendapatkan penawaran terbaru dan terbaik lewat promo-promo kami.</p>
-
-              <p class="particle">Situs Jual Beli Online Terbaik dan Terpercaya</p>
-
-              <p class="particle">Kami terus memperluas jangkauan produk kami seperti kategori <a href="//www.lazada.co.id/fashion-new-arrival/">Fashion</a> dan <a href="//www.lazada.co.id/watches/">Jam Tangan</a>. Kami menawarkan pilihan kualitas produk terbaik yang akan Anda temukan semua pada ujung jari Anda. Belanja online di Indonesia tidak pernah semudah ini! Tetap terhubung dan dapatkan penawaran terbaru dan transaksi setiap harinya. Ingat, setiap hari adalah hari belanja di Lazada. Lebih dari sekedar salah satu toko online e-commerce di Indonesia, Lazada.co.id adalah prioritas tertinggi kami untuk menciptakan pengalaman belanja online terbaik untuk setiap pelanggan di Indonesia. Jadi mulai belanja online dan jika Anda punya pertanyaan silakan telepon atau email kami. Selain menyediakan pengalaman beli online yang lengkap dan mudah bagi konsumen, lazada.co.id juga memastikan kepuasan seller untuk jual online produk mereka dengan berbagai dukungan yang maksimal. Sehingga sinergi antara pelanggan dan seller menciptakan budaya jual beli online terbaik di Indonesia!menciptakan pengalaman belanja online terbaik untuk setiap pelanggan di Indonesia. Jadi mulai belanja online dan jika Anda punya pertanyaan silakan telepon atau email kami. Selain menyediakan pengalaman beli online yang lengkap dan mudah bagi konsumen, lazada.co.id juga
-            </p>
+               <p className="particle">Lazada adalah perintis e-commerce (online shopping) di beberapa negara dengan pertumbuhan tercepat di dunia yang menawarkan pengalaman belanja online cepat, aman dan nyaman dengan produk-produk dalam kategori mulai dari fashion, peralatan elektronik, peralatan rumah tangga, mainan anak-anak dan peralatan olahraga. Lazada selalu berjuang untuk memberikan pelanggan yang terbaik termasuk dengan menawarkan beberapa metode pembayaran, pengembalian gratis, layanan konsumen yang baik dan garansi komitmen. Sebagai situs belanja online terbaik di Indonesia, Lazada.co.id selalu menyediakan deretan produk tak terhitung jumlahnya yang selalu di update tiap hari. Kami selalu memastikan bahwa anda mendapatkan penawaran terbaru dan terbaik lewat promo-promo kami.</p>
+               <p class="particle">Situs Jual Beli Online Terbaik dan Terpercaya</p>
+               <p class="particle">Kami terus memperluas jangkauan produk kami seperti kategori <a href="//www.lazada.co.id/fashion-new-arrival/">Fashion</a> dan <a href="//www.lazada.co.id/watches/">Jam Tangan</a>. Kami menawarkan pilihan kualitas produk terbaik yang akan Anda temukan semua pada ujung jari Anda. Belanja online di Indonesia tidak pernah semudah ini! Tetap terhubung dan dapatkan penawaran terbaru dan transaksi setiap harinya. Ingat, setiap hari adalah hari belanja di Lazada. Lebih dari sekedar salah satu toko online e-commerce di Indonesia, Lazada.co.id adalah prioritas tertinggi kami untuk menciptakan pengalaman belanja online terbaik untuk setiap pelanggan di Indonesia. Jadi mulai belanja online dan jika Anda punya pertanyaan silakan telepon atau email kami. Selain menyediakan pengalaman beli online yang lengkap dan mudah bagi konsumen, lazada.co.id juga memastikan kepuasan seller untuk jual online produk mereka dengan berbagai dukungan yang maksimal. Sehingga sinergi antara pelanggan dan seller menciptakan budaya jual beli online terbaik di Indonesia!menciptakan pengalaman belanja online terbaik untuk setiap pelanggan di Indonesia. Jadi mulai belanja online dan jika Anda punya pertanyaan silakan telepon atau email kami. Selain menyediakan pengalaman beli online yang lengkap dan mudah bagi konsumen, lazada.co.id juga
+               </p>
             </div>
             <div className="col-3">                <p>
               memastikan kepuasan seller untuk jual online produk mereka dengan berbagai dukungan yang maksimal. Sehingga sinergi antara pelanggan dan seller menciptakan budaya jual beli online terbaik di Indonesia!</p>
-
               <p class="particle">Belanja Online Lebih Mudah, Murah, Gak Pake Ribet</p>
-
               <p class="particle">Sesuai dengan tagline kami "Effortless Shopping" / "Belanja gak pake ribet" Lazada Indonesia (lazada.co.id) menawarkan solusi untuk masyarakat Indonesia dapat menikmati berbagai kemudahan dalam berbelanja online dengan menyediakan website yang mudah digunakan dan sistem pembayaran online yang lengkap. Kami menjamin kenyamanan anda ketika anda  browsing produk yang sedang dicari dan juga menjamin opsi pembayaran yang aman. Pilihan pembayaran kami termasuk kartu kredit, cash on delivery, Bank transfer, Mobile banking dan bahkan melalui berbagai layanan pembayaran online. Dan jika Anda ingin membawa keranjang belanja Anda di manapun Anda pergi, Lazada App ada untuk membantu Anda menelusuri Lazada, membeli barang-barang dan tetap update dengan promo terbaru kami. Bahkan, pada aplikasi Lazada,kami memiliki promo sendiri yang berbeda dari lazada versi desktop.</p>
             </div>
             <div className="col-3">
-              <div class="lzd-footer-width-25">
-                <div class="lzd-footer-top-category lzd-footer-category-left" data-spm-anchor-id="a2o4j.home.footer_mid.i0.42b04ceeCETPYz">
+               <div class="lzd-footer-top-category lzd-footer-category-left" data-spm-anchor-id="a2o4j.home.footer_mid.i0.42b04ceeCETPYz">
                   <h5 class="lzd-footer-title">TOP CATEGORIES &amp; BRANDS</h5>
-                  <div class="lzd-footer-categoty-division">
-                    <h5 class="lzd-footer-title-small">
-                      <span class="lzd-footer-title-small">AUTOMOTIVE &amp; GADGETS</span>
-                    </h5>
-                    <a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/yamaha/">Yamaha</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/oem/">OEM</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/honda/">Honda</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/vespa/">Vespa</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/axio/">Axio</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/kyoto/">Kyoto</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/pioneer/">Pioneer</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/kawasaki/">Kawasaki</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/toyota/">Toyota</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/">more...</a>
-                  </div>
+                    <div class="lzd-footer-categoty-division">
+                      <h5 class="lzd-footer-title-small">
+                        <span class="lzd-footer-title-small">AUTOMOTIVE &amp; GADGETS</span>
+                      </h5>
+                      <a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/yamaha/">Yamaha</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/oem/">OEM</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/honda/">Honda</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/vespa/">Vespa</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/axio/">Axio</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/kyoto/">Kyoto</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/pioneer/">Pioneer</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/kawasaki/">Kawasaki</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/toyota/">Toyota</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/">more...</a>
+                    </div>
                   <div class="lzd-footer-categoty-division">
                     <h5 class="lzd-footer-title-small">
                       <span class="lzd-footer-title-small">BABY &amp; TODDLER</span>
                     </h5>
-                    <a class="lzd-footer-category-tag" href="//www.lazada.co.id/mamypoko/">MamyPoko</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/jual-perlengkapan-bayi-balita/merries/">Merries </a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/jual-perlengkapan-bayi-balita/pampers/">PAMPERS</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/wyeth-s26/">Wyeth S26</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/bebelac/">Bebelac</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-popok-pispot-bb/">Popok</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-susu-formula/">Susu Formula</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/enfa/">Enfagrow</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/jual-perlengkapan-bayi-balita/">more...</a>
+                      <a class="lzd-footer-category-tag" href="//www.lazada.co.id/mamypoko/">MamyPoko</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/jual-perlengkapan-bayi-balita/merries/">Merries </a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/jual-perlengkapan-bayi-balita/pampers/">PAMPERS</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/wyeth-s26/">Wyeth S26</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/bebelac/">Bebelac</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-popok-pispot-bb/">Popok</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-susu-formula/">Susu Formula</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/enfa/">Enfagrow</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/jual-perlengkapan-bayi-balita/">more...</a>
                   </div>
                   <div class="lzd-footer-categoty-division">
                     <h5 class="lzd-footer-title-small">
                       <span class="lzd-footer-title-small">CAMERAS</span>
                     </h5>
-                    <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/xiaomi/">Xiaomi</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/kogan/">Kogan</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/nikon/">Nikon</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/canon/">Canon</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/samsung/">Samsung</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/fujifilm/">Fujifilm</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/olympus/">Olympus</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/gopro/">GoPro</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/">more...</a>
+                      <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/xiaomi/">Xiaomi</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/kogan/">Kogan</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/nikon/">Nikon</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/canon/">Canon</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/samsung/">Samsung</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/fujifilm/">Fujifilm</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/olympus/">Olympus</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/gopro/">GoPro</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/">more...</a>
                   </div>
                   <div class="lzd-footer-categoty-division">
                     <h5 class="lzd-footer-title-small">
                       <span class="lzd-footer-title-small">COMPUTERS &amp; LAPTOPS</span>
                     </h5>
-                    <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/asus/">ASUS</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/lenovo/">Lenovo</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/hp/">HP</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-penyimpanan-data/wd/">WD</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/acer/">Acer</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/apple/">Apple</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/logitech/">Logitech</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/intel/">Intel</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/perangkat-permainan-pc/">Gaming PC</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/">more...</a>
+                      <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/asus/">ASUS</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/lenovo/">Lenovo</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/hp/">HP</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-penyimpanan-data/wd/">WD</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/acer/">Acer</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/apple/">Apple</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/logitech/">Logitech</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/intel/">Intel</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/perangkat-permainan-pc/">Gaming PC</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/">more...</a>
                   </div>
                   <div class="lzd-footer-categoty-division">
                     <h5 class="lzd-footer-title-small">
@@ -360,11 +322,8 @@ const FooterPage = () => {
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-perabotan-rumah-tangga/">more...</a>
                   </div>
                 </div>
-              </div>
-            </div>
+              </div>           
             <div className="col-3">
-
-              <div class="lzd-footer-width-25">
                 <div class="lzd-footer-top-category lzd-footer-category-right">
                   <div class="lzd-footer-categoty-division">
                     <h5 class="lzd-footer-title-small">
@@ -495,66 +454,41 @@ const FooterPage = () => {
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/online-revolution/">Harbolnas 2017</a>
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/special-promotion/">more...</a>
                   </div>
-                  <textarea style={textArea} class="J_MoreCategoryRight"></textarea>
                 </div>
+               </div>
               </div>
             </div>
-
-
-          </div>
-        </div>
-      </div>
-      <div className="footer-third">
-        <div className="lzd-footer-inner" dataSpm="footer_mid">
-          <div className="lzd-footer-width-50 lzd-footer-left">
-            <div className="lzd-footer-about">
-
-
-
-
-            </div>
-          </div>
-        </div>
-
+ 
         <div class="footer-fourth">
           <div class="lzd-footer-inner">
             <div class="lzd-footer-width-50" data-spm="venture">
               <h3 class="lzd-footer-title">Lazada Southeast Asia</h3>
-              <a className="country-id" href="https://www.lazada.co.id"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/1200px-Flag_of_Indonesia.svg.png" alt="" width="50px" /></a>
-              <a className="country-my" href="https://www.lazada.com.my"><img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg" alt="" width="60px" /></a>
-              <a className="country-ph" href="https://www.lazada.com.ph"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/1200px-Flag_of_the_Philippines.svg.png" alt="" width="60px" /></a>
-              <a class="country-sg" href="https://www.lazada.sg"><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg" alt="" width="60px" height="40px" /></a>
-              <a class="country-th" href="https://www.lazada.co.th"><img src="https://i2.wp.com/www.visionwear.com/wp-content/uploads/2011/09/thailand.gif?fit=550%2C367&ssl=1" width="50px" alt="" /></a>
-              <a class="country-vn" href="https://www.lazada.vn"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/2000px-Flag_of_Vietnam.svg.png" width="50px" alt="" /></a>
+                <a className="country-id" href="https://www.lazada.co.id"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/1200px-Flag_of_Indonesia.svg.png" alt="" width="50px" /></a>
+                <a className="country-my" href="https://www.lazada.com.my"><img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg" alt="" width="60px" /></a>
+                <a className="country-ph" href="https://www.lazada.com.ph"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/1200px-Flag_of_the_Philippines.svg.png" alt="" width="60px" /></a>
+                <a class="country-sg" href="https://www.lazada.sg"><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg" alt="" width="60px" height="40px" /></a>
+                <a class="country-th" href="https://www.lazada.co.th"><img src="https://i2.wp.com/www.visionwear.com/wp-content/uploads/2011/09/thailand.gif?fit=550%2C367&ssl=1" width="50px" alt="" /></a>
+                <a class="country-vn" href="https://www.lazada.vn"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/2000px-Flag_of_Vietnam.svg.png" width="50px" alt="" /></a>
             </div>
             <div class="lzd-footer-width-25" data-spm="sns">
               <h3 class="lzd-footer-title">Follow Us</h3>
-              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://www.facebook.com/LazadaIndonesia" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_fbk" style={facebook}>
-              </a>
-              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://www.twitter.com/LazadaID" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_twr" style={twitter}>
-              </a>
-              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://www.linkedin.com/company/lazada" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_lnk" style={linkedin}>
-              </a>
-              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://plus.google.com/101850977969394149607" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_ggp" style={googlePlus}>
-              </a>
-              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://instagram.com/lazada_id/" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_ins" style={instagram}>
-              </a>
-              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://www.youtube.com/user/lazadaID" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_ytb" style={youtube}>
-              </a>
-              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://www.pinterest.com/LazadaID/" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_pnt" style={pinterest}>
-              </a>
-              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://blog.lazada.co.id" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_blg" style={blog}>
-              </a>
+              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://www.facebook.com/LazadaIndonesia" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_fbk" style={facebook}></a>
+              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://www.twitter.com/LazadaID" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_twr" style={twitter}></a>
+              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://www.linkedin.com/company/lazada" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_lnk" style={linkedin}></a>
+              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://plus.google.com/101850977969394149607" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_ggp" style={googlePlus}></a>
+              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://instagram.com/lazada_id/" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_ins" style={instagram}></a>
+              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://www.youtube.com/user/lazadaID" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_ytb" style={youtube}></a>
+              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://www.pinterest.com/LazadaID/" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_pnt" style={pinterest}></a>
+              <a class="lzd-follow-us-icon lzd-footer-sprit" href="https://blog.lazada.co.id" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_blg" style={blog}></a>
             </div>
             <div class="lzd-footer-width-25">
               <div class="lzd-footer-copyright">
                 © Lazada 2019
-    </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div >
   )
 }
 

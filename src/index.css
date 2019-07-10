@@ -12,5 +12,12 @@ code {
     monospace;
 }
 
-
-
+/* category list css */
+.style {
+  padding-top: 100px ;
+  padding-bottom: 50px;
+}
+.list {
+  padding-bottom: 60px;
+}
+/* batas */
