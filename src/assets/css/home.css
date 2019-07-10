@@ -258,6 +258,11 @@ font-size: 22px;
     position: absolute;
     right: 5px;
     bottom: 15px;
-   
-   
+}
+
+.footer{
+    margin-top: 30px;
+}
+.text-footer a{
+    color: black;
 }
