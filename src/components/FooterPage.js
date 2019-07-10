@@ -203,8 +203,7 @@ const FooterPage = () => {
               <p class="particle">Sesuai dengan tagline kami "Effortless Shopping" / "Belanja gak pake ribet" Lazada Indonesia (lazada.co.id) menawarkan solusi untuk masyarakat Indonesia dapat menikmati berbagai kemudahan dalam berbelanja online dengan menyediakan website yang mudah digunakan dan sistem pembayaran online yang lengkap. Kami menjamin kenyamanan anda ketika anda  browsing produk yang sedang dicari dan juga menjamin opsi pembayaran yang aman. Pilihan pembayaran kami termasuk kartu kredit, cash on delivery, Bank transfer, Mobile banking dan bahkan melalui berbagai layanan pembayaran online. Dan jika Anda ingin membawa keranjang belanja Anda di manapun Anda pergi, Lazada App ada untuk membantu Anda menelusuri Lazada, membeli barang-barang dan tetap update dengan promo terbaru kami. Bahkan, pada aplikasi Lazada,kami memiliki promo sendiri yang berbeda dari lazada versi desktop.</p>
             </div>
             <div className="col-3">
-              <div class="lzd-footer-width-25">
-                <div class="lzd-footer-top-category lzd-footer-category-left" data-spm-anchor-id="a2o4j.home.footer_mid.i0.42b04ceeCETPYz">
+               <div class="lzd-footer-top-category lzd-footer-category-left" data-spm-anchor-id="a2o4j.home.footer_mid.i0.42b04ceeCETPYz">
                   <h5 class="lzd-footer-title">TOP CATEGORIES &amp; BRANDS</h5>
                     <div class="lzd-footer-categoty-division">
                       <h5 class="lzd-footer-title-small">
@@ -325,7 +324,6 @@ const FooterPage = () => {
                 </div>
               </div>           
             <div className="col-3">
-              <div class="lzd-footer-width-25">
                 <div class="lzd-footer-top-category lzd-footer-category-right">
                   <div class="lzd-footer-categoty-division">
                     <h5 class="lzd-footer-title-small">
@@ -456,20 +454,11 @@ const FooterPage = () => {
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/online-revolution/">Harbolnas 2017</a>
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/special-promotion/">more...</a>
                   </div>
-                  <textarea style={textArea} class="J_MoreCategoryRight"></textarea>
                 </div>
+               </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="footer-third">
-        <div className="lzd-footer-inner" dataSpm="footer_mid">
-          <div className="lzd-footer-width-50 lzd-footer-left">
-            <div className="lzd-footer-about">
-            </div>
-          </div>
-        </div>
+ 
         <div class="footer-fourth">
           <div class="lzd-footer-inner">
             <div class="lzd-footer-width-50" data-spm="venture">
@@ -499,143 +488,7 @@ const FooterPage = () => {
             </div>
           </div>
         </div>
-      <div class="lzd-footer-categoty-division">
-        <h4 class="lzd-footer-title-small">
-          <span class="lzd-footer-title-small">BABY &amp; TODDLER</span>
-        </h4>
-          <a class="lzd-footer-category-tag" href="//www.lazada.co.id/mamypoko/">MamyPoko</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/jual-perlengkapan-bayi-balita/merries/">Merries</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/jual-perlengkapan-bayi-balita/pampers/">PAMPERS</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/wyeth-s26/">Wyeth S26</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/bebelac/">Bebelac</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-popok-pispot-bb/">Popok</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-susu-formula/">Susu Formula</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/enfa/">Enfagrow</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/jual-perlengkapan-bayi-balita/">more...</a>
       </div>
-      <div class="lzd-footer-categoty-division">
-          <h4 class="lzd-footer-title-small">
-            <span class="lzd-footer-title-small">CAMERAS</span>
-          </h4>
-          <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/xiaomi/">Xiaomi</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/kogan/">Kogan</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/nikon/">Nikon</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/canon/">Canon</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/samsung/">Samsung</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/fujifilm/">Fujifilm</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/olympus/">Olympus</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/gopro/">GoPro</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/">more...</a>
-      </div>
-      <div class="lzd-footer-categoty-division">
-          <h4 class="lzd-footer-title-small">
-            <span class="lzd-footer-title-small">COMPUTERS &amp; LAPTOPS</span>
-          </h4>
-          <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/asus/">ASUS</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/lenovo/">Lenovo</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/hp/">HP</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-penyimpanan-data/wd/">WD</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/acer/">Acer</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/apple/">Apple</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/logitech/">Logitech</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/intel/">Intel</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/perangkat-permainan-pc/">Gaming PC</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/">more...</a>
-      </div>
-      <div class="lzd-footer-categoty-division">
-          <h4 class="lzd-footer-title-small">
-            <span class="lzd-footer-title-small">FASHION</span>
-          </h4>
-          <a class="lzd-footer-category-tag" href="//www.lazada.co.id/fashion-pria-wanita-anak/oem/">OEM</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/levistrauss/">levi's</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/fashion-pria-wanita-anak/macbeth/">Macbeth</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/zada/">Zada</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/alibi-paris/">Alibi Paris</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/converse/">Converse</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/puma/">Puma</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/fossil/">Fossil</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/new-balance/">New Balance</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/fashion-pria-wanita-anak/">more...</a>
-      </div>
-      <div class="lzd-footer-categoty-division">
-          <h4 class="lzd-footer-title-small">
-            <span class="lzd-footer-title-small">GROCERIES</span>
-          </h4>
-          <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-makanan-minuman/zippo/">Zippo</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-makanan-minuman/ovomaltine/">Ovomaltine</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-makanan-minuman/jelly-belly/">Jelly Belly</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-makanan-minuman/ohome/">Ohome</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-makanan-minuman/naraya/">Naraya</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-permen-coklat/">Snack Import</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/indomie/">Indomie</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/samyang/">Samyang</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-makanan-minuman/">more...</a>
-      </div>
-      <div class="lzd-footer-categoty-division">
-          <h4 class="lzd-footer-title-small">
-            <span class="lzd-footer-title-small">HEALTH &amp; BEAUTY</span>
-          </h4>
-          <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kesehatan-kecantikan/sk-ii/">SK-II</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kesehatan-kecantikan/moment/">Moment</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/">Herbalife</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/dermawand/">Dermawand</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kesehatan-kecantikan/philips/">Philips</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/l-oreal/">L'Oreal</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/nyx/">NYX</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/maybelline-sis/">Maybelline</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/nivea/">Nivea</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kesehatan-kecantikan/">more...</a>
-      </div>
-      <div class="lzd-footer-categoty-division">
-          <h4 class="lzd-footer-title-small">
-            <span class="lzd-footer-title-small">HOME &amp; LIVING</span>
-          </h4>
-          <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-perabotan-rumah-tangga/vicenza/">Vicenza</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-perabotan-rumah-tangga/oem/">OEM</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-perabotan-rumah-tangga/oxone/">Oxone</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-perabotan-rumah-tangga/calista/">Calista</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-perabotan-rumah-tangga/aiueo/">AIUEO</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-perabotan-rumah-tangga/bosch/">BOSCH</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-perabotan-rumah-tangga/terry-palmer/">Terry Palmer</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-perabotan-rumah-tangga/maxim/">Maxim</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-perabotan-rumah-tangga/">more...</a>
-      </div>
-    </div>
-    <div class="lzd-footer-width-25">
-    <div class="lzd-footer-top-category lzd-footer-category-right">
-      <div class="lzd-footer-categoty-division">
-          <h4 class="lzd-footer-title-small">
-            <span class="lzd-footer-title-small">MEDIA, MUSIC &amp; BOOKS</span>
-          </h4>
-          <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-media-musik-dan-buku/yamaha/">Yamaha</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-media-musik-dan-buku/oem/">OEM</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/buku-agama/">Digital Al-Quran</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-media-musik-dan-buku/nektar/">Nektar</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-media-musik-dan-buku/casio/">Casio</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-media-musik-dan-buku/sonymusic/">Sony Music</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-media-musik-dan-buku/universal-music-indonesia/">Universal Music</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-media-musik-dan-buku/">more...</a>
-      </div>
-      <div class="lzd-footer-categoty-division">
-          <h4 class="lzd-footer-title-small">
-            <span class="lzd-footer-title-small">MOBILES &amp; TABLETS</span>
-          </h4>
-          <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-handphone-tablet/samsung/">Samsung</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-handphone-tablet/xiaomi/">Xiaomi</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-handphone-tablet/infinix/">Infinix</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-handphone-tablet/lenovo/">Lenovo</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-handphone-tablet/asus/">ASUS</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-handphone-tablet/apple/">Apple</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-handphone-tablet/htc/">HTC</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-handphone-tablet/blackberry/">Blackberry</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-handphone-tablet/sony/">Sony</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-handphone-tablet/oppo/">Oppo</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/apple/">Apple iPhone 7</a>
-          ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-handphone-tablet/">more...</a>
-      </div>
-    </div>
-    </div >
-  </div>
   )
 }
 
