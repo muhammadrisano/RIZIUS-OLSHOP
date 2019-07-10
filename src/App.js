@@ -6,6 +6,7 @@ import Detail from './screens/Detail'
 import List from './screens/List'
 import Payment from './screens/Payment'
 import Navbar from './components/Navbar'
+import CategoryList from './components/CategoryList';
 class App extends Component {
 
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <Route path='/' exact component={Home} />
           <Route path='/detail' exact component={Detail} />
           <Route path='/list' exact component={List} />
+          <Route path='/categoryList' exact component={CategoryList} />
           <Route path='/payment' exact component={Payment} />
           <FooterPage />
         </div>
