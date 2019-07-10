@@ -69,13 +69,23 @@ body{
 .terpopuler{
     margin-top: 20px;
 }
+
 .terpopuler h3{
     font-size: 22px;
 }
 .terpopuler .col-2{
     background-color: #ffffff !important;
     padding: 0px 0px;
+    cursor: pointer;
 }
+.terpopuler .col-2:hover{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+}
+.terpopuler .col-3:hover{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+}
+
+
 .terpopuler .populer-depan{
     width: 150px;
 }
@@ -95,6 +105,9 @@ body{
     background-color: #F9EAEA;
     min-height: 110px;
     border: 2px solid whitesmoke;
+    margin-bottom: 1px;
+    cursor: pointer;
+
 }
 .koleksi{
     margin-top: 30px;
@@ -130,6 +143,7 @@ body{
     padding: 2px 1px;
     text-align: center;
 }
+
 .koleksi-child img{
     width: 70px;
 }
@@ -139,6 +153,10 @@ body{
 }
 .lazmall .card{
     height: 270px;
+    cursor: pointer;
+}
+.lazmall .card:hover{
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.75);
 }
 .lazmall .card img{
     width: 160px;

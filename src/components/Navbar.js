@@ -5,6 +5,7 @@ import '../assets/css/Navbar.css'
 
 function Navbar(props) {
     return (
+
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <ul className={'navbar-nav ml-auto'}>
@@ -17,6 +18,7 @@ function Navbar(props) {
                 </ul>
             </nav>
             <div className={"search-bar"}>
+
                 <div style={{ margin: '0px 6%' }}>
                     <div style={{ width: '16.5%', overflow: 'hidden', float: 'left' }}>
                         <Link class="navbar-brand" to={"#"} style={{ float: 'left' }}><img src={"http://laz-img-cdn.alicdn.com/images/ims-web/TB1Hs8GaMFY.1VjSZFnXXcFHXXa.png"} style={{ width: 128 }} alt={"gambar"} /></Link>
@@ -30,10 +32,10 @@ function Navbar(props) {
                     <div style={{ float: 'right' }}>
                         <Link to={""}><img src={'//laz-img-cdn.alicdn.com/images/ims-web/TB1vIvSbMFY.1VjSZFnXXcFHXXa.png'} style={{ width: 200 }} /></Link>
                     </div>
-                    </div>
                 </div>
             </div>
-            )
-        }
-        
+        </div>
+    )
+}
+
 export default Navbar
