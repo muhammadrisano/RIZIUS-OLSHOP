@@ -16,18 +16,19 @@ const DetailUser = () => {
                     </div>
                     <hr />
                     <h2 className="harga">Rp 979000</h2>
-                    <div className="row">
+                    <div className="row title-center">
                         <div className="col-2">
                             Promosi
                         </div>
                         <div className="col-10">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda unde id necessitatibus omnis quasi molestiae cumque eaque dolorem reiciendis.
+                            <div className="promo-center"> Belanja Rp300.000 dapatkan potongan Rp15.000</div>
+                            <div className="promo-center"> Beli 2, Diskon 5% ; Beli 3, Diskon 6%</div>
                         </div>
                         <div className="col-2">
                             Cicilan
                         </div>
                         <div className="col-10">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda unde id necessitatibus omnis quasi molestiae cumque eaque dolorem reiciendis.
+                            <p>Sampai dengan 12 bulan, dengan pembayaran Rp81.583 per bulan.</p>
                         </div>
                     </div>
                     <hr />
@@ -40,80 +41,100 @@ const DetailUser = () => {
 
                         </div>
                     </div>
-                    <button className="btn btn-primary">Beli Sekarang</button>
-                    <button className="btn btn-primary">Tambah ke Troli</button>
+                    <div className="button-detail">
+                        <button className="btn btn-beli">Beli Sekarang</button>
+                        <button className="btn btn-tambah">Tambah ke Troli</button>
+                    </div>
+
                 </div>
 
-                <div className="col-3">
-                    <h6 className="pilihan-pengiriman">
+                <div className="col-3 detail-right">
+                    <h6 className="title-right">
                         Pilihan pengiriman
                 </h6>
                     <div className="row">
-                        <div className="col-1">
-
+                        <div className="col-2">
+                            <i class="fas fa-map-marker-alt"></i>
                         </div>
-                        <div className="col-11">
-                            <p>DKI Jakarta, Kota Jakarta Barat, Cengkareng</p>
+                        <div className="col-10">
+                            <p className="subtitle-right">DKI Jakarta, Kota Jakarta Barat, Cengkareng</p>
                         </div>
-                        <div className="col-1">
-
+                        <div className="col-2">
+                            <i class="far fa-paper-plane"></i>
                         </div>
-                        <div className="col-11">
-                            Dikirim dari luar negeri
+                        <div className="col-10">
+                            <p className="subtitle-right">Dikirim dari luar negeri</p>
                         </div>
 
                     </div>
                     <hr />
 
                     <div className="row">
-                        <div className="col-1">
+                        <div className="col-2">
+                            <i class="fas fa-bus"></i>
+                        </div>
+                        <div className="col-10">
+                            <p className="subtitle-right">Ekonomi</p>
+                        </div>
+                        <div className="col-2">
 
                         </div>
-                        <div className="col-11">
-                            <p>Ekonomi</p>
-                        </div>
-                        <div className="col-1">
-
-                        </div>
-                        <div className="col-11">
-                            Nikmati promosi gratis ongkir dengan belajar minimum Rp 200.000
+                        <div className="col-10">
+                            <p className="subtitle-right">Nikmati promosi gratis ongkir dengan belajar minimum Rp 200.000</p>
                         </div>
                     </div>
 
                     <hr />
                     <div className="row">
-                        <div className="col-1">
-
+                        <div className="col-2">
+                            <i class="fas fa-gift"></i>
                         </div>
-                        <div className="col-11">
-                            Standar
+                        <div className="col-10">
+                            <p className="subtitle-right">Standar</p>
+                            <p className="ket">1 - 6 har</p>
                         </div>
-                        <div className="col-1">
-
+                        <div className="col-2">
+                            <i class="fas fa-money-check-alt"></i>
                         </div>
-                        <div className="col-11">
-                            Bayar di tempat berlaku
+                        <div className="col-10">
+                            <p className="subtitle-right"> Bayar di tempat berlaku </p>
                         </div>
                     </div>
 
                     <hr />
-                    <h6>Pengembalian & gransi</h6>
+                    <h6 className="title-right">Pengembalian & gransi</h6>
                     <div className="row">
-                        <div className="col-1">
-
+                        <div className="col-2">
+                            <i class="far fa-calendar-times"></i>
                         </div>
-                        <div className="col-11">
-                            7 hari pengembalian barang
+                        <div className="col-10">
+                            <p className="subtitle-right"> 7 hari pengembalian barang </p>
+                            <p className="ket">Berubah pikiran tidak diperbolehkan</p>
                         </div>
-                        <div className="col-1">
-
+                        <div className="col-2">
+                            <i class="fas fa-heart-broken"></i>
                         </div>
-                        <div className="col-11">
-                            Tidak ada garansi
+                        <div className="col-10">
+                            <p className="subtitle-right">Tidak ada garansi </p>
                         </div>
                     </div>
-                    <h6>Dibuat oleh </h6>
-                    <h5>Khusni Store</h5>
+                    <h6 className="ket">Dibuat oleh </h6>
+                    <h5 className="nama-store">Khusni Store</h5>
+                    <div className="row table-detail">
+                        <div className="col-4">
+                            <p className="ket">Penilaian Positif seller</p>
+                            <h3>92%</h3>
+                        </div>
+                        <div className="col-4">
+                            <p className="ket">Pengiriman tepat waktu</p>
+                            <h3>55%</h3>
+                        </div>
+                        <div className="col-4">
+                            <p className="ket">Tingkat respon chat</p>
+                            <h3>98%</h3>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

@@ -20,7 +20,7 @@ body{
 .carousel-item img{
     height: 358px;
 }
-.body_promo .card{
+.body-promo .card{
     border-width: 0px;
     min-height: 250px;
     cursor: pointer;

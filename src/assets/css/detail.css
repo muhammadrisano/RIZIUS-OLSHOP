@@ -19,3 +19,79 @@
     font-size: 12px;
     color: #32A6BE;
 }
+.detail-center .harga{
+    color: #F57224;
+}
+.title-center .col-2{
+    color: grey;
+}
+.promo-center{
+    background-color:#F57224;
+    display: inline-block;
+    color: white;
+    padding: 2px;
+    font-size: 14px;
+    margin: 4px;
+}
+
+.button-detail .btn-beli{
+    height: 45px;
+    background-color: #FFB916;
+    color: white;
+    width: 227px;
+}
+.button-detail .btn-beli:hover{
+    color: white;
+    background-color: rgb(190, 137, 11);
+}
+
+
+.button-detail .btn-tambah{
+    height: 45px;
+    background-color: #F57224;
+    color: white;
+    width: 227px;
+    margin: 10px;
+}
+.button-detail .btn-tambah:hover{
+    color: white;
+    background-color: rgb(224, 94, 18);
+    margin: 10px;
+}
+
+.detail-user .title-right{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #757575;
+    font-weight: bold;
+
+}
+.detail-user .subtitle-right{
+    font-size: 14px;
+
+}
+
+.detail-right{
+    background-color: #FAFAFA;
+}
+.detail-right .nama-store{
+    font-size: 16px;
+}
+
+.detail-right .ket{
+    font-size: 12px;
+    color: #757575;
+    margin-top: -5px;
+}
+
+.table-detail .col-4{
+    border: 2px solid #EFF0F5;
+    padding-top: 15px;
+    text-align: left;
+}
+.detail-right hr{
+    margin-top: -10px;
+}
+.far,.fas{
+    color: rgb(201, 196, 196);
+}
