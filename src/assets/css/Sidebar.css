@@ -1,0 +1,16 @@
+#sidebar1 li:hover,#sidebar2 li:hover,#sidebar3 li:hover{
+    background-color: #ddd;
+}
+#sidebar1 li,#sidebar2 li,#sidebar3 li{
+    cursor: pointer;
+    padding: 4px 10px; 
+    font-size: 13px; 
+    color: #666; 
+}
+#sidebar1,#sidebar2,#sidebar3{
+    margin: 0px;
+    list-style-type: none; 
+    height: 358px; 
+    width: 200px; 
+    padding: 10px 0px; 
+}
