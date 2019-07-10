@@ -2,8 +2,9 @@ body{
     background-color: whitesmoke !important;
 }
 .carousel{
-    height: 380px;
+    height: 358px;
 }
+
 .body_promo{
     background-color: rgb(241, 150, 30);
     padding-bottom: 15px;
@@ -19,7 +20,7 @@ body{
 .carousel-item img{
     height: 358px;
 }
-.body_promo .card{
+.body-promo .card{
     border-width: 0px;
     min-height: 250px;
     cursor: pointer;
