@@ -1,0 +1,21 @@
+.detail{
+    margin-top: 120px;
+}
+.detail-user{
+    background-color: #fff;
+}
+.img-produk img{
+    width: 300px;
+
+}
+
+.detail-center{
+    padding: 10px 20px !important;
+}
+.fa-star{
+    color: #FFD000;
+}
+.penilaian p{
+    font-size: 12px;
+    color: #32A6BE;
+}
