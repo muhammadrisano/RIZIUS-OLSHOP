@@ -6,17 +6,11 @@ const product = [
         subcategory: '',
         price: 3699000,
         city: 'Banten',
-<<<<<<< HEAD
-        star: '1234',
-        ulasan: '',
-        pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/f8971c6eb0d86e69ee79df76c76f7253.jpg', 'https://id-test-11.slatic.net/p/f8971c6eb0d86e69ee79df76c76f7253.jpg', '']
-=======
         star: '4',
         ulasan: '1234',
         pertanyaan: '',
         url: ['https://id-test-11.slatic.net/p/f8971c6eb0d86e69ee79df76c76f7253.jpg', 'https://id-test-11.slatic.net/p/3c27a62718f080e4b88d8ca1d5fb5dea.jpg', 'https://id-test-11.slatic.net/p/a0be79358a6fb8c7c97cc9d4e3bcb040.jpg']
->>>>>>> b252f73395851dd0039d124e2b419502a259d470
+
     },
     {
         id: 2,
@@ -25,17 +19,12 @@ const product = [
         subcategory: '',
         price: 1999000,
         city: 'Banten',
-<<<<<<< HEAD
-        star: '7345',
-        ulasan: '',
-        pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/5da9825f9b6d59f8713763eb5b7bc3f1.jpg', 'https://id-test-11.slatic.net/p/bb75b5aa1b95ea16c10b6adc4b35ace2.jpg']
-=======
+
         star: '4',
         ulasan: '7345',
         pertanyaan: '',
         url: ['https://id-test-11.slatic.net/p/5da9825f9b6d59f8713763eb5b7bc3f1.jpg', 'https://id-test-11.slatic.net/p/2250fade00c63250a6c48ce79d35bede.jpg', 'https://id-test-11.slatic.net/p/e6582754f192860c6fe3b39ba8169942.jpg']
->>>>>>> b252f73395851dd0039d124e2b419502a259d470
+
     },
     {
         id: 3,
@@ -44,17 +33,12 @@ const product = [
         subcategory: '',
         price: 2009000,
         city: 'Jawa Barat',
-<<<<<<< HEAD
-        star: '2282',
-        ulasan: '',
-        pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/bb75b5aa1b95ea16c10b6adc4b35ace2.jpg', 'https://id-test-11.slatic.net/p/1186c6cbd94a8c0b555e678f13f52924.jpg', '']
-=======
+
         star: '5',
         ulasan: '2282',
         pertanyaan: '',
         url: ['https://id-test-11.slatic.net/p/bb75b5aa1b95ea16c10b6adc4b35ace2.jpg', 'https://id-test-11.slatic.net/p/1186c6cbd94a8c0b555e678f13f52924.jpg', 'https://id-test-11.slatic.net/p/6380393ce7a637ce807234f4a1d3d687.jpg']
->>>>>>> b252f73395851dd0039d124e2b419502a259d470
+
     },
     {
         id: 4,
@@ -63,17 +47,11 @@ const product = [
         subcategory: '',
         price: 11699000,
         city: 'Jawa Barat',
-<<<<<<< HEAD
-        star: '543',
-        ulasan: '',
-        pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/8a27295f329ae64c77a025a1aae5276e.jpg', 'https://id-test-11.slatic.net/p/8a27295f329ae64c77a025a1aae5276e.jpg', '']
-=======
         star: '5',
         ulasan: '543',
         pertanyaan: '',
         url: ['https://id-test-11.slatic.net/p/8a27295f329ae64c77a025a1aae5276e.jpg', 'https://id-live-01.slatic.net/original/883d20094343fee5bd35c752e768f4ab.jpg', 'https://id-test-11.slatic.net/p/4d7b1cdfadebbd66340b44829261c6ed.jpg']
->>>>>>> b252f73395851dd0039d124e2b419502a259d470
+
     },
     {
         id: 5,
@@ -82,17 +60,11 @@ const product = [
         subcategory: '',
         price: 2405000,
         city: 'DKI Jakarta',
-<<<<<<< HEAD
-        star: '242',
-        ulasan: '',
-        pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/df62ba76fffa84de6e98019d4c0a74cd.jpg', 'https://id-test-11.slatic.net/p/9546ead0af3e2f5ccba068998389e9a2.jpg', '']
-=======
         star: '5',
         ulasan: '242',
         pertanyaan: '',
         url: ['https://id-test-11.slatic.net/p/df62ba76fffa84de6e98019d4c0a74cd.jpg', 'https://id-test-11.slatic.net/p/9546ead0af3e2f5ccba068998389e9a2.jpg', 'https://id-test-11.slatic.net/p/91f9305378a9caf846728bc50d03fc09.jpg']
->>>>>>> b252f73395851dd0039d124e2b419502a259d470
+
     },
     {
         id: 6,
@@ -101,17 +73,11 @@ const product = [
         subcategory: '',
         price: 8499000,
         city: 'Jawa Barat',
-<<<<<<< HEAD
-        star: '867',
-        ulasan: '',
-        pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/8eec65319407473ad70d71bc6a87e717.jpg', 'https://id-test-11.slatic.net/p/8eec65319407473ad70d71bc6a87e717.jpg', '']
-=======
         star: '5',
         ulasan: '867',
         pertanyaan: '',
         url: ['https://id-test-11.slatic.net/p/8eec65319407473ad70d71bc6a87e717.jpg', 'https://id-test-11.slatic.net/p/9a7645f6689ef47d7765a7a547793c29.jpg', 'https://id-live-01.slatic.net/original/1c1fddc6c39fee0aa7d45d7ed905ee6b.jpg']
->>>>>>> b252f73395851dd0039d124e2b419502a259d470
+
     },
     {
         id: 7,
@@ -120,108 +86,6 @@ const product = [
         subcategory: '',
         price: 3395000,
         city: 'Jawa Barat',
-<<<<<<< HEAD
-        star: '822',
-        ulasan: '',
-        pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/2058c299eb37c07f61940808494ddb93.jpg', 'https://id-test-11.slatic.net/p/4d26e8dd71eccebb00204c5e2f869239.jpg', '']
-    },
-    {
-        id: 8,
-        title: '',
-        category: 'Handphone2',
-        subcategory: '',
-        price: 1,
-        city: '',
-        star: '',
-        ulasan: '',
-        pertanyaan: '',
-        url: ['', '', '']
-    },
-    {
-        id: 9,
-        title: '',
-        category: 'Handphone2',
-        subcategory: '',
-        price: 1,
-        city: '',
-        star: '',
-        ulasan: '',
-        pertanyaan: '',
-        url: ['', '', '']
-    },
-    {
-        id: 10,
-        title: '',
-        category: 'Handphone',
-        subcategory: '',
-        price: 1,
-        city: '',
-        star: '',
-        ulasan: '',
-        pertanyaan: '',
-        url: ['', '', '']
-    }, {
-        id: 11,
-        title: '',
-        category: '',
-        subcategory: '',
-        price: 1,
-        city: '',
-        star: '',
-        ulasan: '',
-        pertanyaan: '',
-        url: ['', '', '']
-    }, {
-        id: 12,
-        title: '',
-        category: '',
-        subcategory: '',
-        price: 1,
-        city: '',
-        star: '',
-        ulasan: '',
-        pertanyaan: '',
-        url: ['', '', '']
-    }, {
-        id: 13,
-        title: '',
-        category: '',
-        subcategory: '',
-        price: 1,
-        city: '',
-        star: '',
-        ulasan: '',
-        pertanyaan: '',
-        url: ['', '', '']
-    }, {
-        id: 14,
-        title: '',
-        category: '',
-        subcategory: '',
-        price: 1,
-        city: '',
-        star: '',
-        ulasan: '',
-        pertanyaan: '',
-        url: ['', '', '']
-    },
-    {
-        id: 15,
-        title: '',
-        category: '',
-        subcategory: '',
-        price: 1,
-        city: '',
-        star: '',
-        ulasan: '',
-        pertanyaan: '',
-        url: ['', '', '']
-    },
-]
-
-export default product
-=======
         star: '5',
         ulasan: '822',
         pertanyaan: '',
@@ -739,8 +603,8 @@ export default product
         pertanyaan: '',
         url: ['https://id-test-11.slatic.net/p/ac508011e982414f9321eb96227cd35d.jpg', '', '']
     },
-    
+
 ]
 
 export default product
->>>>>>> b252f73395851dd0039d124e2b419502a259d470
+
