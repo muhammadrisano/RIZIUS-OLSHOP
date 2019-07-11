@@ -13,13 +13,7 @@ code {
 }
 
 /* category list css */
-.style {
-  padding-top: 100px ;
-  padding-bottom: 50px;
-}
-.list {
-  padding-bottom: 60px;
-}
+
 /* batas */
 
 .pertama {
@@ -43,3 +37,36 @@ code {
 .footerTigaD {
   font-size: 13px;
 }
+.row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.playStore {
+  margin-right: 20px;
+}
+.bendera {
+  border-radius: 50%;
+}
+.country-id {
+  margin-right: 20px;
+}
+.country-my {
+  margin-right: 20px;
+}
+.country-ph {
+  margin-right: 20px;
+}
+.country-sg {
+  margin-right: 20px;
+}
+.country-th {
+  margin-right: 20px;
+}
+.country-vn {
+  margin-right: 20px;
+}
+.footer-fourth {
+  margin-bottom: 20px;
+}
+
+
