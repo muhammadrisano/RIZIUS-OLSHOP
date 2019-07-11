@@ -2,6 +2,7 @@ import React from 'react'
 import '../assets/css/Cart.css'
 import { Link } from 'react-router-dom'
 import BodyUntukmu from './BodyUntukmu';
+
 function Cart() {
     return (
         <div>
@@ -32,7 +33,7 @@ function Cart() {
                                 <label class={'d'} for="z" style={{ width: 20 }}></label>
                             </div>
                             <div style={{ float: "left", width: '90px', marginRight: 10 }}>
-                                <img src={"https://id-live-02.slatic.net/p/d02753f78f1d60f3c1e0b41fa0fc2f90.jpg"} width='100%' />
+                                <img src={"https://id-live-02.slatic.net/p/d02753f78f1d60f3c1e0b41fa0fc2f90.jpg"} width='100%' alt=""/>
                             </div>
                             <div style={{ width: 320, float: "left", marginRight: 40 }}>
                                 <p style={{ fontSize: "11pt", color: "black", marginBottom: 5 }}>tas ransel sekolah BTS tas ransel wanita sekolah tas BTS terbaru tas terlaris ala korean style tas termurah</p>

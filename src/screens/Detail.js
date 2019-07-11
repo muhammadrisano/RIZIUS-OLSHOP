@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import DetailUser from '../components/DetailUser'
 import '../assets/css/detail.css'
+import FooterPageDua from '../components/FooterPageDua';
+
 class Detail extends Component {
     constructor(props) {
         super(props);
@@ -39,6 +41,7 @@ class Detail extends Component {
         return (
             <div className="container-fluid detail">
                 <DetailUser foto={this.state.foto} produk={this.state.produk} setFoto={this.setFoto} jumlah={this.state.jumlah} setJumlah={this.setJumlah} />
+                <FooterPageDua />
             </div>
         )
 

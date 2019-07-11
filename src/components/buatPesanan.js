@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
 function buatPesanan() {
     return (
         <div>
@@ -39,7 +40,7 @@ function buatPesanan() {
                         </div>
                         <div style={{ padding: 20 }}>
                             <div style={{ float: "left", width: '90px', marginRight: 10, clear: "both" }}>
-                                <img src={"https://id-live-02.slatic.net/p/d02753f78f1d60f3c1e0b41fa0fc2f90.jpg"} width='100%' />
+                                <img src={"https://id-live-02.slatic.net/p/d02753f78f1d60f3c1e0b41fa0fc2f90.jpg"} width='100%' alt=""/>
                             </div>
                             <div style={{ width: 360, float: "left", marginRight: 10 }}>
                                 <p style={{ fontSize: "11pt", color: "black", marginBottom: 5 }}>tas ransel sekolah BTS tas ransel wanita sekolah tas BTS terbaru tas terlaris ala korean style tas termurah</p>

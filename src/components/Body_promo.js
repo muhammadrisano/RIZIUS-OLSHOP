@@ -2,8 +2,8 @@ import React from 'react'
 import '../assets/css/home.css'
 import promo from '../database/promo'
 import baner from '../assets/images/header/baner-lazada.png'
-let Body_promo = () => {
 
+let Body_promo = () => {
     const promoProduk = promo.map((produk, index) => {
         return (
             <div className="col-md-2">
@@ -17,11 +17,8 @@ let Body_promo = () => {
             </div>
         )
     })
-
     return (
-
         <div className="body_promo">
-
             <div className="container-fluid">
                 <div className="iklan">
                     <div className="row">

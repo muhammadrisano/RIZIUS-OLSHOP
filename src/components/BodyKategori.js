@@ -1,5 +1,6 @@
 import React from 'react';
 import kategori from '../database/kategori';
+
 let BodyKategori = () => {
     return (
         <div className="container-fluid kategori">

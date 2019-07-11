@@ -197,10 +197,9 @@ const FooterPage = () => {
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/honda/">Honda</a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/vespa/">Vespa</a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/kyoto/">Kyoto</a>
-                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/pioneer/">Pioneer</a>
-                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/kawasaki/">Kawasaki </a>
-                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/toyota/">Toyota </a>
-                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/">more...</a></p> </p>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/pioneer/">Pioneer </a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/toyota/">Toyota</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/">more...</a></p></p>
                     </div>
                   <div class="lzd-footer-categoty-division">
                     <p class="lzd-footer-title-small">
@@ -212,7 +211,7 @@ const FooterPage = () => {
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/bebelac/">Bebelac</a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-popok-pispot-bb/">Popok</a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-susu-formula/">Susu Formula</a>
-                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/enfa/">Enfagrow</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/enfa/">Enfagrow </a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/jual-perlengkapan-bayi-balita/">more...</a></p></p>
                   </div>
                   <div class="lzd-footer-categoty-division">
@@ -223,8 +222,8 @@ const FooterPage = () => {
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/nikon/">Nikon</a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/canon/">Canon</a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/samsung/">Samsung</a>
-                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/fujifilm/">Fujifilm</a>
-                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/olympus/">Olympus </a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/fujifilm/">Fujifilm </a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/olympus/">Olympus</a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/gopro/">GoPro</a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/">more...</a></p></p>
                   </div>
@@ -237,9 +236,7 @@ const FooterPage = () => {
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-penyimpanan-data/wd/">WD</a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/acer/">Acer</a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/apple/">Apple</a>
-                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/logitech/">Logitech</a>
-                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/intel/">Intel</a>
-                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/perangkat-permainan-pc/">Gaming PC</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/logitech/">Logitech </a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-komputer-laptop/">more...</a></p></p>
                   </div>
                   <div class="lzd-footer-categoty-division">
@@ -250,8 +247,8 @@ const FooterPage = () => {
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/fashion-pria-wanita-anak/macbeth/">Macbeth</a>
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/zada/">Zada</a>
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/alibi-paris/">Alibi Paris</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/converse/">Converse</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/puma/">Puma</a>
+                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/converse/">Converse </a>
+                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/puma/">Puma </a>
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/fossil/">Fossil</a>
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/new-balance/">New Balance</a>
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/fashion-pria-wanita-anak/">more...</a></p></p>
@@ -276,9 +273,7 @@ const FooterPage = () => {
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kesehatan-kecantikan/moment/">Moment</a>
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/">Herbalife</a>
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/dermawand/">Dermawand</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kesehatan-kecantikan/philips/">Philips</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/l-oreal/">L'Oreal</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/nyx/">NYX </a>
+                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kesehatan-kecantikan/philips/">Philips </a>
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/maybelline-sis/">Maybelline</a>
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/nivea/">Nivea</a>
                     ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kesehatan-kecantikan/">more...</a></p></p>
