@@ -5,7 +5,7 @@ import BodyKoleksi from './BodyKoleksi';
 import BodyLazmall from './BodyLazmall';
 import BodyKategori from '../components/BodyKategori';
 import BodyUntukmu from '../components/BodyUntukmu'
-import CategoryList from './CategoryList';
+// import CategoryList from '../screens/CategoryList';
 
 
 
