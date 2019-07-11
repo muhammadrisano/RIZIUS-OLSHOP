@@ -8,6 +8,8 @@ import slide1 from '../assets/images/header/be74b5d1060e414eb8c8891bb14b4944-136
 import slide2 from '../assets/images/header/1c7108bac9234ca8adc471d9e9842177-1360-480.jpg_desktop.jpg'
 import slide3 from '../assets/images/header/2ee1241442d647569cf882827b9ceff7-1360-480.jpg_desktop.jpg'
 import slide4 from '../assets/images/header/TB1Xgv5Xlr0gK0jSZFnXXbRRXXa.jpg_1200x1200Q100.jpg_.webp'
+import { exportDefaultSpecifier } from '@babel/types';
+import { Link } from 'react-router-dom';
 
 
 const paragraf1 = {
@@ -82,9 +84,67 @@ const Carousel = () => {
 }
 
 class CategoryList extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            idCategoriParams: props.params.category,
+            idSubcategoriParams: props.params.subcategory,
+            dataProduk: props.dataProduk,
+        }
+    }
     render() {
-        console.log(this.params.category);
-        console.log(this.params.subcategory);
+        let pencarian = 0
+        const tampilProduk = this.state.dataProduk.map((produk, index) => {
+
+            if (this.state.idSubcategoriParams) {
+                if (produk.subcategory == this.idSubcategoriParams) {
+                    pencarian = pencarian + 1
+                    return (
+
+                        < div key={index} className="col-3" >
+                            <Link to={'/detail/' + produk.id}>
+                                <div class="card">
+                                    <div className="card-head">
+                                        <img src={produk.url[0]} class="card-img-top" />
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{text(produk.title)}</h5>
+                                        {/* <p class="card-text"> of the card's content.</p> */}
+                                        <h4>Rp {produk.price}</h4>
+                                        <h6><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span> {produk.star}</span></h6>
+                                        <div className="card-kota">{produk.city}</div>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div >
+
+                    )
+                }
+
+            } else if (produk.category == this.state.idCategoriParams) {
+                pencarian = pencarian + 1
+                return (
+                    <div key={index} className="col-3">
+                        <Link to={'/detail/' + produk.id} style={{ textDecoration: 'none' }}>
+                            <div class="card">
+                                <div className="card-head">
+                                    <img src={produk.url[0]} class="card-img-top" />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">{text(produk.title)}</h5>
+                                    {/* <p class="card-text"> of the card's content.</p> */}
+                                    <h4>Rp {produk.price}</h4>
+                                    <h6><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span> {produk.star}</span></h6>
+                                    <div className="card-kota">{produk.city}</div>
+                                </div>
+                            </div>
+                        </Link>
+                    </div >
+                )
+            }
+
+        })
+
         return (
             <div className="style">
                 <Container>
@@ -124,7 +184,7 @@ class CategoryList extends Component {
                         </div>
                         <div class="navbar navbar-light bg-light">
                             <h5 class="navbar-brand"><b>Handphone</b></h5>
-                            <p>19344 barang ditemukan dalam Handphone</p>
+                            <p>{pencarian} barang ditemukan dalam Handphone</p>
                             <form class="form-inline">
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
@@ -141,22 +201,7 @@ class CategoryList extends Component {
                         </div>
                         <div className="borderList untukmu">
                             <div className="row">
-                                {categoryList.map((item, index) =>
-                                    <div className="col-3">
-                                        <div class="card">
-                                            <div className="card-head">
-                                                <img src={item.url} class="card-img-top" />
-                                            </div>
-                                            <div class="card-body">
-                                                <h5 class="card-title">{text(item.title)}</h5>
-                                                {/* <p class="card-text"> of the card's content.</p> */}
-                                                <h4>Rp {item.price}</h4>
-                                                <h6><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span> {item.star}</span></h6>
-                                                <div className="card-kota">{item.city}</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                )}
+                                {tampilProduk}
                             </div>
                         </div>
                         <nav aria-label="Page navigation example">
@@ -206,9 +251,9 @@ class CategoryList extends Component {
                                 <p>Lazada menyediakan berbagai macam hape android murah. Mulai dari hp cina, hp dual sim murah, hp samsung android termurah, hingga hp samsung paling murah. Dengan hanya mengunjungi Lazada.co.id saja anda sudah dapat menemukan info harga hp terlengkap. Lazada jual smartphone dan handphone murah. Dengan membeli handphone di lazada anda juga bisa kredit handphone secara online. Karena lazada menawarkan sistem pembayaran dengan cara kredit dengan cicilan 0%.</p>
                                 <p>Lazada: Situs Hp Nomor 1 di Indonesia</p>
                                 <p style={paragraf2}>Di lazada anda dapat menemukan berbagai jenis handphone dengan harga yang beraneka ragam. Mulai dari harga hp dibawah 1 juta, harga hp dibawah 500 ribu, harga hp murah berkualitas, harga hp samsung android murah, harga hp samsung android termurah, harga ponsel samsung, harga ponsel terbaru, dan harga <a href="https://www.lazada.co.id/beli-smartphone/">smartphone</a> murah. Banyak keuntungan yang anda dapatkan dengan berbelanja di situs hp Lazada. Seperti jenis sistem pembayaran yang beraneka ragam mulai dari kredit hp dengan cicilan 0%, COD, serta voucher dan <a href="https://www.lazada.co.id/special-promotion/">diskon setiap hari</a>.</p></div></div>
-                    </div>
-                </Container>
-            </div>
+                    </div >
+                </Container >
+            </div >
         )
     }
 }
