@@ -8,6 +8,7 @@ class Detail extends Component {
         return (
             <div className="container-fluid detail">
                 <DetailUser />
+                {/* <DetailFlexi /> */}
             </div>
         )
 

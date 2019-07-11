@@ -20,9 +20,13 @@ body{
 .carousel-item img{
     height: 358px;
 }
-.body-promo .card{
+.body_promo .promo_terbaik{
+    margin-top: 50px;
+}
+
+.body_promo .card{
     border-width: 0px;
-    min-height: 250px;
+    height: 250px;
     cursor: pointer;
     transition: 0.2s;
 }

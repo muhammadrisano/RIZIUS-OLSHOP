@@ -7,6 +7,18 @@ const DetailUser = () => {
                 <div className="col-3 img-produk">
                     <img src="https://my-test-11.slatic.net/p/ed7ba3445a1e73f565c815e69aae9913.jpg" alt="" />
                     <hr />
+                    <div className="row icon-gambar">
+                        <div className="col-4">
+                            <div className="kotak-icon">
+                                <img src="https://id-test-11.slatic.net/p/509c20af37a84f66c7ab4ff045924307.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div className="col-4">
+                            <div className="kotak-icon">
+                                <img src="https://my-test-11.slatic.net/p/ed7ba3445a1e73f565c815e69aae9913.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-6 detail-center">
                     <h4 className="judul">LAPTOP Netbook Komputer 7 Inci 1024*600 TFT Layar Mikrofon Bluetooth 1G + 8G</h4>
@@ -17,28 +29,34 @@ const DetailUser = () => {
                     <hr />
                     <h2 className="harga">Rp 979000</h2>
                     <div className="row title-center">
-                        <div className="col-2">
-                            Promosi
+                        <div className="row">
+                            <div className="col-2">
+                                Promosi
                         </div>
-                        <div className="col-10">
-                            <div className="promo-center"> Belanja Rp300.000 dapatkan potongan Rp15.000</div>
-                            <div className="promo-center"> Beli 2, Diskon 5% ; Beli 3, Diskon 6%</div>
-                        </div>
-                        <div className="col-2">
-                            Cicilan
-                        </div>
-                        <div className="col-10">
-                            <p>Sampai dengan 12 bulan, dengan pembayaran Rp81.583 per bulan.</p>
-                        </div>
-                    </div>
-                    <hr />
 
-                    <div className="row">
-                        <div className="col-2">
-                            kuantitias
+                            <div className="col-10">
+                                <div className="promo-center"> Belanja Rp300.000 dapatkan potongan Rp15.000</div>
+                                <div className="promo-center"> Beli 2, Diskon 5% ; Beli 3, Diskon 6%</div>
+                            </div>
                         </div>
-                        <div className="col-10">
+                        <div className="row">
+                            <div className="col-2">
+                                Cicilan
+                        </div>
+                            <div className="col-10">
+                                <p className="cicilan">Sampai dengan 12 bulan, dengan pembayaran Rp81.583 per bulan.</p>
+                            </div>
+                        </div>
 
+                        <hr />
+
+                        <div className="row title-center">
+                            <div className="col-2">
+                                kuantitias
+                        </div>
+                            <div className="col-10">
+
+                            </div>
                         </div>
                     </div>
                     <div className="button-detail">
