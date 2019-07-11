@@ -9,7 +9,8 @@ class Detail extends Component {
             params: props.params,
             produk: null,
             pembelian: {},
-            foto: null
+            foto: null,
+            jumlah: 1
         }
     }
     componentWillMount() {
@@ -28,11 +29,16 @@ class Detail extends Component {
             foto: fotoBaru
         })
     }
+    setJumlah = (newJumlah) => {
+        this.setState({
+            jumlah: newJumlah
+        })
+    }
     render() {
         console.log(this.state.produk);
         return (
             <div className="container-fluid detail">
-                <DetailUser foto={this.state.foto} produk={this.state.produk} setFoto={this.setFoto} />
+                <DetailUser foto={this.state.foto} produk={this.state.produk} setFoto={this.setFoto} jumlah={this.state.jumlah} setJumlah={this.setJumlah} />
             </div>
         )
 

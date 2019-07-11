@@ -116,3 +116,22 @@
 .detail-center .row{
     margin-top: 20px;
 }
+#jumlah{
+    width: 26px;
+}
+.btn-jumlah{
+    background-color:#EFF0F5 !important;
+    color: rgb(143, 142, 142) !important;
+    height: 33px;
+    width: 33px;
+    margin: 3px;
+    font-size: 20px !important;
+    padding: 0px !important;
+
+}
+.btn-jumlah:hover{
+    color: #FAFAFA !important;
+    background-color: #757575 !important;
+
+
+}

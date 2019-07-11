@@ -1,9 +1,15 @@
 import React from 'react'
 
-const DetailUser = ({ produk, foto, setFoto }) => {
+const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah }) => {
 
     const onHover = (e) => {
         setFoto(e.target.src);
+    }
+    const tambahJumlah = () => {
+        setJumlah(jumlah + 1)
+    }
+    const kurangJumlah = () => {
+        setJumlah(jumlah - 1)
     }
     return (
         <div className="detail-user">
@@ -31,36 +37,39 @@ const DetailUser = ({ produk, foto, setFoto }) => {
                     <hr />
                     <h2 className="harga">Rp {produk.price}</h2>
                     <div className="row title-center">
-                        <div className="row">
-                            <div className="col-2">
-                                Promosi
-                        </div>
 
-                            <div className="col-10">
-                                <div className="promo-center"> Belanja Rp300.000 dapatkan potongan Rp15.000</div>
-                                <div className="promo-center"> Beli 2, Diskon 5% ; Beli 3, Diskon 6%</div>
+                        <div className="col-2">
+                            Promosi
                             </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-2">
-                                Cicilan
-                        </div>
-                            <div className="col-10">
-                                <p className="cicilan">Sampai dengan 12 bulan, dengan pembayaran Rp {produk.price / 12} per bulan.</p>
-                            </div>
-                        </div>
 
-                        <hr />
-
-                        <div className="row title-center">
-                            <div className="col-2">
-                                kuantitias
-                        </div>
-                            <div className="col-10">
-
-                            </div>
+                        <div className="col-10">
+                            <div className="promo-center"> Belanja Rp300.000 dapatkan potongan Rp15.000</div>
+                            <div className="promo-center"> Beli 2, Diskon 5% ; Beli 3, Diskon 6%</div>
                         </div>
                     </div>
+                    <div className="row title-center">
+                        <div className="col-2">
+                            Cicilan
+                            </div>
+                        <div className="col-10">
+                            <p className="cicilan">Sampai dengan 12 bulan, dengan pembayaran Rp {produk.price / 12} per bulan.</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div className="row title-center">
+                        <div className="col-2">
+                            kuantitias
+                             </div>
+                        <div className="col-10">
+                            <button className="btn btn-jumlah" onClick={kurangJumlah}>-</button>
+                            <input type="text" name="jumlah" id="jumlah" value={jumlah} />
+                            <button className="btn btn-jumlah" onClick={tambahJumlah}>+</button>
+                        </div>
+
+                    </div>
+
                     <div className="button-detail">
                         <button className="btn btn-beli">Beli Sekarang</button>
                         <button className="btn btn-tambah">Tambah ke Troli</button>
