@@ -40,14 +40,14 @@ function text(text) {
     }
 }
 
-const Carousel = () => {
+const Carousel = ({ category, subcategory }) => {
     return (
         <div>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/">Beranda</a></li>
-                    <li class="breadcrumb-item"><a href="/">Handphone &amp; Tablet</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Handphone</li>
+                    <li class="breadcrumb-item"><a href="/">{category}</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">{subcategory}</li>
                 </ol>
             </nav>
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
@@ -93,6 +93,8 @@ class CategoryList extends Component {
         }
     }
     render() {
+
+
         let pencarian = 0
         const tampilProduk = this.state.dataProduk.map((produk, index) => {
 
@@ -100,7 +102,6 @@ class CategoryList extends Component {
                 if (produk.subcategory == this.state.idSubcategoriParams) {
                     pencarian = pencarian + 1
                     return (
-
                         < div key={index} className="col-3" >
                             <Link to={'/detail/' + produk.id} style={{ textDecoration: 'none' }}>
                                 <div class="card">
@@ -110,7 +111,7 @@ class CategoryList extends Component {
                                     <div class="card-body">
                                         <h5 class="card-title">{text(produk.title)}</h5>
                                         <h4>Rp {produk.price}</h4>
-                                        <h6><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span> {produk.ulasan}</span></h6>
+                                        <h6>  <span> {produk.ulasan}</span></h6>
                                         <div className="card-kota">{produk.city}</div>
                                     </div>
                                 </div>
@@ -146,7 +147,7 @@ class CategoryList extends Component {
         return (
             <div className="style">
                 <Container>
-                    <Carousel />
+                    <Carousel category={this.state.idCategoriParams} subcategory={this.state.idSubcategoriParams} />
                     <div >
                         <div className="row card-img">
                             <div className="col-2">
