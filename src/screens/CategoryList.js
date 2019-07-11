@@ -93,11 +93,12 @@ class CategoryList extends Component {
         }
     }
     render() {
+        console.log(this.state.idSubcategoriParams);
         let pencarian = 0
         const tampilProduk = this.state.dataProduk.map((produk, index) => {
 
             if (this.state.idSubcategoriParams) {
-                if (produk.subcategory == this.idSubcategoriParams) {
+                if (produk.subcategory == this.state.idSubcategoriParams) {
                     pencarian = pencarian + 1
                     return (
 
