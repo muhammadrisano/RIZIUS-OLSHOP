@@ -1,7 +1,5 @@
 import React from "react";
 import '../assets/css/footerPage.css';
-import '../index.css';
-
 
 const pstyle = {
   background: "#f36f36",
@@ -73,39 +71,12 @@ const verified = {
   width: "150px",
   height: "120px",
 }
-const textArea = {
-  display: "none",
-}
-const facebook = {
-  backgroundPosition: "-767px -672px",
-}
-const twitter = {
-  backgroundPosition: "-721px -671px",
-}
-const linkedin = {
-  backgroundPosition: "-812px -624px",
-}
-const googlePlus = {
-  backgroundPosition: "-767px -624px",
-}
-const instagram = {
-  backgroundPosition: "-680px -624px",
-}
-const youtube = {
-  backgroundPosition: "-852px -671px",
-}
-const pinterest = {
-  backgroundPosition: "-812px -671px",
-}
-const blog = {
-  backgroundPosition: "-680px -671px",
-}
-
 
 const FooterPage = () => {
   return (
     <div className="container-fluid footer">
-        <div className="row bg-#F8F8FF">
+      <div className="batasFooter">
+        <div className="row bg-#F8F8FF ">
           <div className="col-3">
             <div className="pertama">
               <h6 className="">Layanan Pelanggan</h6>
@@ -228,8 +199,8 @@ const FooterPage = () => {
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/vespa/">Vespa</a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/kyoto/">Kyoto</a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/pioneer/">Pioneer</a>
-                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/kawasaki/">Kawasaki</a>
-                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/toyota/">Toyota</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/kawasaki/">Kawasaki </a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/toyota/">Toyota </a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/otomotif-dan-gadgets/">more...</a></p> </p>
                     </div>
                   <div class="lzd-footer-categoty-division">
@@ -254,7 +225,7 @@ const FooterPage = () => {
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/canon/">Canon</a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/samsung/">Samsung</a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/fujifilm/">Fujifilm</a>
-                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/olympus/">Olympus</a>
+                      ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/olympus/">Olympus </a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/gopro/">GoPro</a>
                       ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-kamera/">more...</a></p></p>
                   </div>
@@ -455,7 +426,7 @@ const FooterPage = () => {
             </div>
      
         <div className="footer-fourth">
-            <div className="col-4">
+            <div className="col-12">
               <h6 class="lzd-footer-title">Lazada Southeast Asia</h6> 
                 <div className="bendera">
                 <a className="country-id" href="https://www.lazada.co.id"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/1200px-Flag_of_Indonesia.svg.png" alt="" width="50px"/></a>
@@ -466,6 +437,7 @@ const FooterPage = () => {
                 <a className="country-vn" href="https://www.lazada.vn"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/2000px-Flag_of_Vietnam.svg.png" width="50px" alt="" /></a>
                 </div>  
             </div>
+        </div>
         </div>
       </div>
   )

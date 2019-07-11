@@ -37,6 +37,7 @@ class App extends Component {
           <Route path='/payment' exact component={Payment} />
           <Route path='/cart' exact component={Cart} />
           <Route path='/buatpesanan' exact component={BuatPesanan} />
+          <FooterPage />
         </div>
       </BrowserRouter>
     )
