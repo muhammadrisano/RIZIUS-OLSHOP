@@ -7,11 +7,10 @@ import List from './screens/List'
 import Payment from './components/payment'
 import Navbar from './components/Navbar'
 
+
+import product from './database/product'
+
 import CategoryList from './screens/CategoryList';
-
-import product from './database/product';
-
-import CategoryList from './components/CategoryList';
 import BuatPesanan from './components/buatPesanan'
 import Cart from './components/Cart'
 
