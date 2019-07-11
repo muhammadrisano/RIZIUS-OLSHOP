@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { Component, useEffect, useState } from 'react'
 import ReactDOM from 'react-dom'
+import { Link, Route, BrowserRouter as Router } from 'react-router-dom'
 import '../assets/css/Sidebar.css'
 function Sidebar() {
+    const [li,setLi] = useState([])
+    const [li2,setLi2] = useState([])
     let data = []
     data['Peralatan Elektronik'] = ['Handphone', 'Laptop', 'Desktop', 'Kamera', 'Game Console', 'Gadget', 'Tablet']
     data['Laptop'] = ['Laptop Consumer', 'Laptop Gaming', 'Laptop 2-in-1s']
@@ -21,7 +24,7 @@ function Sidebar() {
     data['Aksesoris Tablet'] = ['Casing Tablet', 'Keyboard Tablet', 'Pen Stylus Tablet']
     data['Aksesoris Game Console'] = ['Stick Playstation', 'Analog Extension', 'PlayStation Chargers', 'Stick Nintendo', 'Casing Nintendo', 'Nintendo Screen Protectors', 'Nintendo Chargers', 'Xbox Controllers', 'Xbox Chargers', 'Aksesoris Game Lainnya']
     data['Komponen Komputer'] = ['RAM', 'Motherboard', 'Prosesor', 'Kartu Grafis', 'Casing Komputer', 'Power Supply Unit', 'Soundcard', 'Front Panel', 'Water Cooling System']
-    window.onload = function () {
+    useEffect(() => {
         let li = document.getElementById('sidebar1').getElementsByTagName('li')
         li = [...li]
         li.map((item) => {
@@ -31,10 +34,13 @@ function Sidebar() {
                     let a = datas.map(item => {
                         let icon = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjYiIGhlaWdodD0iMjYiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2YzNmQwMCI+PGcgaWQ9InN1cmZhY2UxIj48cGF0aCBkPSJNNjguMzcsMjguNTk1bC05Ljc4MjUsOS43ODI1bDQ3LjczLDQ3LjYyMjVsLTQ3LjczLDQ3LjczbDkuNjc1LDkuNjc1bDUyLjU2NzUsLTUyLjU2NzVsNC45NDUsLTQuODM3NWwtNC45NDUsLTQuODM3NXoiPjwvcGF0aD48L2c+PC9nPjwvZz48L3N2Zz4="
                         return (
-                            <li style={{ padding: "4px 10px", fontSize: 13.5, color: "#666" }}>{item}<span style={{ position: "absolute", width: 20, right: 5, marginTop: -22, display: 'none' }}><img src={icon} width="100%" /></span></li>
+                            <Link to={`/categoryList/${item}`}><li style={{ padding: "4px 10px", fontSize: 13.5, color: "#666" }}>{item}<span style={{ position: "absolute", width: 20, right: 5, marginTop: -22, display: 'none' }}><img src={icon} width="100%" /></span></li></Link>
                         )
                     })
-                    ReactDOM.render(a, document.getElementById('sidebar2'))
+                    // for (let i = 0; i < a.length; i++) {
+                    //     document.getElementById('sidebar2').appendChild(a[i])
+                    // }
+                    setLi(a)
                     this.classList.add('active')
                     this.getElementsByTagName('span')[0].style.display = 'block'
                     document.getElementById('sidebar2').style.display = 'block'
@@ -53,21 +59,22 @@ function Sidebar() {
                 this.classList.remove('active')
                 let li1 = document.getElementById('sidebar2').getElementsByTagName('li')
                 li1 = [...li1]
-                li1.map((item) => {
-                    item.addEventListener('mouseenter', function (evt) {
+                li1.map((items) => {
+                    items.addEventListener('mouseenter', function (evt) {
                         let datas = data[this.innerText]
+                        console.log(item)
                         if (datas !== undefined) {
-                            let a = datas.map(item =>
-                                <li style={{ padding: "4px 10px", fontSize: 13.5, color: "#666" }}>{item}</li>
+                            let a = datas.map(items =>
+                                <Link to={`/categoryList/${this.innerText}/${items}`}><li style={{ padding: "4px 10px", fontSize: 13.5, color: "#666" }}>{items}</li></Link>
                             )
-                            ReactDOM.render(a, document.getElementById('sidebar3'))
+                            setLi2(a)
                             this.classList.add('active')
                             this.getElementsByTagName('span')[0].style.display = 'block'
                             document.getElementById('sidebar3').style.display = 'block'
                         }
                     })
-                    item.addEventListener('mouseleave', function () {
-                        if (item.className === "active") {
+                    items.addEventListener('mouseleave', function () {
+                        if (items.className === "active") {
                             this.classList.remove('active')
                             this.getElementsByTagName('span')[0].style.display = 'none'
                             document.getElementById('sidebar3').style.display = 'none'
@@ -92,11 +99,12 @@ function Sidebar() {
 
                 this.classList.remove('active')
             })
-        }
-        )
+        })
     }
+    )
+
     return (
-        <div style={{ background: "white", paddingTop: "5px", }}>
+        <div id={'sidebar'} style={{ background: "white", paddingTop: "5px", }}>
             <div style={{ backgroundColor: "white", boxShadow: "0px 0px 3px #999", position: "absolute", zIndex: "10", left: 80 }}>
                 <ul id={'sidebar1'} style={{ margin: 0, listStyleType: "none", height: "358px", width: 200, padding: "10px 0px" }}>
                     <li>Peralatan Elektronik <span style={{ position: "absolute", width: 20, right: 5, marginTop: -22, display: 'none' }}><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjYiIGhlaWdodD0iMjYiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2YzNmQwMCI+PGcgaWQ9InN1cmZhY2UxIj48cGF0aCBkPSJNNjguMzcsMjguNTk1bC05Ljc4MjUsOS43ODI1bDQ3LjczLDQ3LjYyMjVsLTQ3LjczLDQ3LjczbDkuNjc1LDkuNjc1bDUyLjU2NzUsLTUyLjU2NzVsNC45NDUsLTQuODM3NWwtNC45NDUsLTQuODM3NXoiPjwvcGF0aD48L2c+PC9nPjwvZz48L3N2Zz4=" width="100%" /></span></li>
@@ -114,15 +122,18 @@ function Sidebar() {
                 </ul>
             </div>
             <div style={{ backgroundColor: "white", boxShadow: "0px 0px 3px #999", position: "absolute", zIndex: "10", left: 280 }}>
-                <ul id={'sidebar2'} style={{ margin: 0, listStyleType: "none", height: "358px", width: 200, padding: "10px 0px",display: "none" }}>
+                <ul id={'sidebar2'} style={{ margin: 0, listStyleType: "none", height: "358px", width: 200, padding: "10px 0px", display: "none" }}>
+                    {li}
                 </ul>
             </div>
             <div style={{ backgroundColor: "white", boxShadow: "0px 0px 3px #999", position: "absolute", zIndex: "10", left: 480 }}>
-                <ul id={'sidebar3'} style={{display: "none" }}>
+                <ul id={'sidebar3'} style={{ display: "none" }}>
+                    {li2}
                 </ul>
             </div>
         </div>
     )
+
 }
 
 export default Sidebar

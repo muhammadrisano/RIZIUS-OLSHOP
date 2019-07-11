@@ -319,7 +319,7 @@ const product = [
         id: 27,
         title: 'Acer Aspire 3 A315-41-R97J - AMD Ryzen R5 2500U - RAM 8GB - 1TB - Radeon RX Vega 8 - 15.6" - Windows 10 - Obsidian Black',
         category: 'Laptop',
-        subcategory: 'Laptop Consumer',
+        subcategory: 'LaptopConsumer',
         price: 7219000,
         city: 'Jawa Barat',
         star: '5',
