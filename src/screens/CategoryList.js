@@ -93,7 +93,6 @@ class CategoryList extends Component {
         }
     }
     render() {
-        console.log(this.state.idSubcategoriParams);
         let pencarian = 0
         const tampilProduk = this.state.dataProduk.map((produk, index) => {
 
@@ -133,7 +132,7 @@ class CategoryList extends Component {
                                 <div class="card-body">
                                     <h5 class="card-title">{text(produk.title)}</h5>
                                     <h4>Rp {produk.price}</h4>
-                                    <h6><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span> {produk.star}</span></h6>
+                                    <h6><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span> {produk.ulasan}</span></h6>
                                     <div className="card-kota">{produk.city}</div>
                                 </div>
                             </div>
