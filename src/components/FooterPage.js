@@ -136,19 +136,18 @@ const FooterPage = () => {
             <img src="https://univrx.com/wp-content/uploads/sites/3/2017/12/Available-on-App-Store.png" width="120px" className="playStore" href="http://bit.ly/lazada-ios-app" alt="" />
             <img src="https://zello.com/wp-content/uploads/2018/08/google-play-badge.png" width="130px" className="" href="http://bit.ly/lazada-android-app" alt="" />
           </div>
+       
         </div>
           <div className="row bg-white">
             <div className="col-3">
               <div className="footer-second">
-                <div className="lzd-footer-inner">
-                  <div className="lzd-footer-width-50">
+
                     <h5 className="lzd-footer-h3" data-spm-anchor-id="a2o4j.home.1056575960.i1.57994ceeNnwjwj">Metode Pembayaran</h5>
                       <img className="lzd-icon-payment lzd-footer-sprit" style={payment1} src="https://www.visa.bidroom.com/assets/img/visa-logo.png" alt="" />
                       <img className="lzd-icon-payment lzd-footer-sprit" style={payment2} src="https://img.etimg.com/thumb/height-480,width-640,imgsize-114814,msid-60955286/.jpg" alt="" />
                       <img className="lzd-icon-payment lzd-footer-sprit" style={payment3} src="https://previews.123rf.com/images/roxanabalint/roxanabalint1503/roxanabalint150300270/38208522-promotional-label-sticker-or-stamp-for-cash-on-delivery-on-white-vector-illustration.jpg" alt="" />
                   </div>
-                </div>
-              </div>
+
             </div>
            <div className="col-3"></div>
             <div className="col-3"><div className="lzd-footer-width-25">
@@ -437,7 +436,7 @@ const FooterPage = () => {
                 <a className="country-vn" href="https://www.lazada.vn"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/2000px-Flag_of_Vietnam.svg.png" width="50px" alt="" /></a>
                 </div>  
             </div>
-        </div>
+            </div>
         </div>
       </div>
   )
