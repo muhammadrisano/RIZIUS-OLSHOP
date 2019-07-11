@@ -8,22 +8,31 @@ class Detail extends Component {
             dataProduk: props.dataProduk,
             params: props.params,
             produk: null,
-            pembelian: {}
-
+            pembelian: {},
+            foto: null
         }
     }
     componentWillMount() {
         this.state.dataProduk.forEach(element => {
             if (element.id == this.state.params) {
-                this.setState({ produk: element })
+                this.setState({
+                    produk: element,
+                    foto: element.url[0]
+                })
             }
         });
+    }
+
+    setFoto = (fotoBaru) => {
+        this.setState({
+            foto: fotoBaru
+        })
     }
     render() {
         console.log(this.state.produk);
         return (
             <div className="container-fluid detail">
-                <DetailUser produk={this.state.produk} />
+                <DetailUser foto={this.state.foto} produk={this.state.produk} setFoto={this.setFoto} />
             </div>
         )
 

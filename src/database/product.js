@@ -21,7 +21,7 @@ const product = [
         star: '7345',
         ulasan: '',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/5da9825f9b6d59f8713763eb5b7bc3f1.jpg', 'https://id-test-11.slatic.net/p/5da9825f9b6d59f8713763eb5b7bc3f1.jpg', '']
+        url: ['https://id-test-11.slatic.net/p/5da9825f9b6d59f8713763eb5b7bc3f1.jpg', 'https://id-test-11.slatic.net/p/bb75b5aa1b95ea16c10b6adc4b35ace2.jpg']
     },
     {
         id: 3,

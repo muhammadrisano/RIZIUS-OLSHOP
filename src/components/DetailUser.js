@@ -1,18 +1,22 @@
 import React from 'react'
 
-const DetailUser = ({ produk }) => {
+const DetailUser = ({ produk, foto, setFoto }) => {
+
+    const onHover = (e) => {
+        setFoto(e.target.src);
+    }
     return (
         <div className="detail-user">
             <div className="row">
                 <div className="col-3 img-produk">
-                    <img src={produk.url[0]} alt="" />
+                    <img src={foto} alt="" />
                     <hr />
                     <div className="row icon-gambar">
                         {produk.url.map((gbr, index) =>
 
                             <div className="col-4">
                                 <div className="kotak-icon">
-                                    <img src={gbr} alt="" />
+                                    <img src={gbr} alt="" onMouseEnter={onHover} />
                                 </div>
                             </div>
                         )}
