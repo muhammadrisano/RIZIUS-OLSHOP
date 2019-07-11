@@ -1,33 +1,35 @@
 import React from 'react'
 
-const DetailUser = () => {
+const DetailUser = ({ produk, foto, setFoto }) => {
+
+    const onHover = (e) => {
+        setFoto(e.target.src);
+    }
     return (
         <div className="detail-user">
             <div className="row">
                 <div className="col-3 img-produk">
-                    <img src="https://my-test-11.slatic.net/p/ed7ba3445a1e73f565c815e69aae9913.jpg" alt="" />
+                    <img src={foto} alt="" />
                     <hr />
                     <div className="row icon-gambar">
-                        <div className="col-4">
-                            <div className="kotak-icon">
-                                <img src="https://id-test-11.slatic.net/p/509c20af37a84f66c7ab4ff045924307.jpg" alt="" />
+                        {produk.url.map((gbr, index) =>
+
+                            <div className="col-4">
+                                <div className="kotak-icon">
+                                    <img src={gbr} alt="" onMouseEnter={onHover} />
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-4">
-                            <div className="kotak-icon">
-                                <img src="https://my-test-11.slatic.net/p/ed7ba3445a1e73f565c815e69aae9913.jpg" alt="" />
-                            </div>
-                        </div>
+                        )}
                     </div>
                 </div>
                 <div className="col-6 detail-center">
-                    <h4 className="judul">LAPTOP Netbook Komputer 7 Inci 1024*600 TFT Layar Mikrofon Bluetooth 1G + 8G</h4>
+                    <h4 className="judul">{produk.title}</h4>
                     <div className="penilaian">
-                        <p> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4 Penilaian</p>
-                        <p>Merek : No Brand | Lebih banyak laptop dari No Brand</p>
+                        <p> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> {produk.ulasan} Penilaian</p>
+                        <p>Merek : {produk.category}</p>
                     </div>
                     <hr />
-                    <h2 className="harga">Rp 979000</h2>
+                    <h2 className="harga">Rp {produk.price}</h2>
                     <div className="row title-center">
                         <div className="row">
                             <div className="col-2">
@@ -44,7 +46,7 @@ const DetailUser = () => {
                                 Cicilan
                         </div>
                             <div className="col-10">
-                                <p className="cicilan">Sampai dengan 12 bulan, dengan pembayaran Rp81.583 per bulan.</p>
+                                <p className="cicilan">Sampai dengan 12 bulan, dengan pembayaran Rp {produk.price / 12} per bulan.</p>
                             </div>
                         </div>
 
@@ -75,7 +77,7 @@ const DetailUser = () => {
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <div className="col-10">
-                            <p className="subtitle-right">DKI Jakarta, Kota Jakarta Barat, Cengkareng</p>
+                            <p className="subtitle-right">{produk.city}</p>
                         </div>
                         <div className="col-2">
                             <i class="far fa-paper-plane"></i>
