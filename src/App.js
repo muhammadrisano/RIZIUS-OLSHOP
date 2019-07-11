@@ -19,7 +19,10 @@ class App extends Component {
           <Route path='/' exact component={Home} />
           <Route path='/detail' exact component={Detail} />
           <Route path='/list' exact component={List} />
-          <Route path='/categoryList' exact component={CategoryList} />
+
+
+          <Route path='/categoryList/:category' exact render={(props) => <CategoryList dataProduk={this.state.dataProduk} params={props.match.params} />} />
+          <Route path='/categoryList/:category/:subcategory' exact render={(props) => <CategoryList dataProduk={this.state.dataProduk} params={props.match.params} />} />
           <Route path='/payment' exact component={Payment} />
           <Route path='/cart' exact component={Cart} />
           <Route path='/buatpesanan' exact component={BuatPesanan} />
