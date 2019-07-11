@@ -4,6 +4,15 @@
 .detail-user{
     background-color: #fff;
 }
+.detail-user .icon-gambar img{
+    width: 50px;
+}
+.detail-user .icon-gambar .kotak-icon{
+    cursor: pointer;
+}
+.detail-user .icon-gambar .kotak-icon:hover{
+    border: 1px solid orange;
+}
 .img-produk img{
     width: 300px;
 
@@ -12,6 +21,7 @@
 .detail-center{
     padding: 10px 20px !important;
 }
+
 .fa-star{
     color: #FFD000;
 }
@@ -29,9 +39,12 @@
     background-color:#F57224;
     display: inline-block;
     color: white;
-    padding: 2px;
+    padding: 2px 0px;
     font-size: 14px;
     margin: 4px;
+}
+.button-detail{
+    margin-top: 20px;
 }
 
 .button-detail .btn-beli{
@@ -92,6 +105,14 @@
 .detail-right hr{
     margin-top: -10px;
 }
-.far,.fas{
+.detail-right .far,.detail-right .fas{
     color: rgb(201, 196, 196);
+    font-size: 20px;
+}
+
+.detail-center .cicilan{
+    font-size: 14px;
+}
+.detail-center .row{
+    margin-top: 20px;
 }
