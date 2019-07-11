@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Card, CardImg, CardBody } from 'reactstrap';
-import categoryList from "../database/categoryList";
+import { Container } from 'reactstrap';
 import "../assets/css/categoryList.css"
 import sellerPick from '../database/SellerPicks';
 import '../assets/css/home.css'
@@ -8,8 +7,8 @@ import slide1 from '../assets/images/header/be74b5d1060e414eb8c8891bb14b4944-136
 import slide2 from '../assets/images/header/1c7108bac9234ca8adc471d9e9842177-1360-480.jpg_desktop.jpg'
 import slide3 from '../assets/images/header/2ee1241442d647569cf882827b9ceff7-1360-480.jpg_desktop.jpg'
 import slide4 from '../assets/images/header/TB1Xgv5Xlr0gK0jSZFnXXbRRXXa.jpg_1200x1200Q100.jpg_.webp'
-import { exportDefaultSpecifier } from '@babel/types';
 import { Link } from 'react-router-dom';
+import FooterPageDua from '../components/FooterPageDua';
 
 
 const paragraf1 = {
@@ -17,13 +16,6 @@ const paragraf1 = {
 }
 const paragraf2 = {
     textAlign: "justify",
-}
-const popularitas = {
-    display: "block",
-    opacity: "",
-}
-const unselectable = {
-    userSelect: "none",
 }
 const cardA = {
     marginTop: "15px",
@@ -39,8 +31,6 @@ function text(text) {
         return `${textSplit}`
     }
 }
-
-
 
 const Carousel = ({ category, subcategory }) => {
     return (
@@ -87,22 +77,17 @@ const Carousel = ({ category, subcategory }) => {
 
 const SetStar = ({ star, ulasan }) => {
     console.log(star)
-
     if (star == 1) {
         return (
-
             <h6>
                 <i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i> <i class="far fa-star"></i><i class="far fa-star"></i> <span>({ulasan})</span>
             </h6>
-
         )
     } else if (star == 2) {
         return (
-
             <h6>
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i> <span>({ulasan})</span>
             </h6>
-
         )
     } else if (star == 3) {
         return (
@@ -127,9 +112,7 @@ const SetStar = ({ star, ulasan }) => {
             </div>
         )
     }
-
 }
-
 
 class CategoryList extends Component {
     constructor(props) {
@@ -141,11 +124,8 @@ class CategoryList extends Component {
         }
     }
     render() {
-
-
         let pencarian = 0
         const tampilProduk = this.state.dataProduk.map((produk, index) => {
-
             if (this.state.idSubcategoriParams) {
                 if (produk.subcategory == this.state.idSubcategoriParams) {
                     pencarian = pencarian + 1
@@ -154,7 +134,7 @@ class CategoryList extends Component {
                             <Link to={'/detail/' + produk.id} style={{ textDecoration: 'none' }}>
                                 <div class="card">
                                     <div className="card-head">
-                                        <img src={produk.url[0]} class="card-img-top" />
+                                        <img src={produk.url[0]} class="card-img-top" alt=""/>
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">{text(produk.title)}</h5>
@@ -165,10 +145,8 @@ class CategoryList extends Component {
                                 </div>
                             </Link>
                         </div >
-
                     )
                 }
-
             } else if (produk.category == this.state.idCategoriParams) {
                 pencarian = pencarian + 1
                 return (
@@ -176,7 +154,7 @@ class CategoryList extends Component {
                         <Link to={'/detail/' + produk.id} style={{ textDecoration: 'none' }}>
                             <div class="card">
                                 <div className="card-head">
-                                    <img src={produk.url[0]} class="card-img-top" />
+                                    <img src={produk.url[0]} class="card-img-top" alt=""/>
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">{text(produk.title)}</h5>
@@ -189,9 +167,7 @@ class CategoryList extends Component {
                     </div >
                 )
             }
-
         })
-
         return (
             <div className="style">
                 <Container>
@@ -264,7 +240,6 @@ class CategoryList extends Component {
                                 </li>
                             </ul>
                         </nav>
-
                         <div className="borderList untukmu">
                             <h6>Seller Picks</h6>
                             <div className="row">
@@ -299,7 +274,8 @@ class CategoryList extends Component {
                                 <p>Lazada: Situs Hp Nomor 1 di Indonesia</p>
                                 <p style={paragraf2}>Di lazada anda dapat menemukan berbagai jenis handphone dengan harga yang beraneka ragam. Mulai dari harga hp dibawah 1 juta, harga hp dibawah 500 ribu, harga hp murah berkualitas, harga hp samsung android murah, harga hp samsung android termurah, harga ponsel samsung, harga ponsel terbaru, dan harga <a href="https://www.lazada.co.id/beli-smartphone/">smartphone</a> murah. Banyak keuntungan yang anda dapatkan dengan berbelanja di situs hp Lazada. Seperti jenis sistem pembayaran yang beraneka ragam mulai dari kredit hp dengan cicilan 0%, COD, serta voucher dan <a href="https://www.lazada.co.id/special-promotion/">diskon setiap hari</a>.</p></div></div>
                     </div >
-                </Container >
+                  <FooterPageDua />
+                </Container >              
             </div >
         )
     }

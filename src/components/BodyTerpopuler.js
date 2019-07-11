@@ -1,6 +1,7 @@
 import React from 'react';
 import '../assets/css/home.css'
 import terpopuler from '../database/terpopuler';
+
 let BodyTerpopuler = () => {
     return (
         <div className="container-fluid terpopuler">
@@ -12,7 +13,6 @@ let BodyTerpopuler = () => {
                         <h6>Wedes Wanita</h6>
                         <p>69,809</p>
                     </div>
-
                 </div>
                 <div className="col-10">
                     <div className="row">

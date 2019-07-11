@@ -1,7 +1,6 @@
 import React from 'react'
 
 const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah }) => {
-
     const onHover = (e) => {
         setFoto(e.target.src);
     }
@@ -19,7 +18,6 @@ const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah }) => {
                     <hr />
                     <div className="row icon-gambar">
                         {produk.url.map((gbr, index) =>
-
                             <div className="col-4">
                                 <div className="kotak-icon">
                                     <img src={gbr} alt="" onMouseEnter={onHover} />
@@ -37,11 +35,9 @@ const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah }) => {
                     <hr />
                     <h2 className="harga">Rp {produk.price}</h2>
                     <div className="row title-center">
-
                         <div className="col-2">
                             Promosi
                             </div>
-
                         <div className="col-10">
                             <div className="promo-center"> Belanja Rp300.000 dapatkan potongan Rp15.000</div>
                             <div className="promo-center"> Beli 2, Diskon 5% ; Beli 3, Diskon 6%</div>
@@ -55,9 +51,7 @@ const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah }) => {
                             <p className="cicilan">Sampai dengan 12 bulan, dengan pembayaran Rp {produk.price / 12} per bulan.</p>
                         </div>
                     </div>
-
                     <hr />
-
                     <div className="row title-center">
                         <div className="col-2">
                             kuantitias
@@ -67,16 +61,12 @@ const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah }) => {
                             <input type="text" name="jumlah" id="jumlah" value={jumlah} />
                             <button className="btn btn-jumlah" onClick={tambahJumlah}>+</button>
                         </div>
-
                     </div>
-
                     <div className="button-detail">
                         <button className="btn btn-beli">Beli Sekarang</button>
                         <button className="btn btn-tambah">Tambah ke Troli</button>
                     </div>
-
                 </div>
-
                 <div className="col-3 detail-right">
                     <h6 className="title-right">
                         Pilihan pengiriman
@@ -94,10 +84,8 @@ const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah }) => {
                         <div className="col-10">
                             <p className="subtitle-right">Dikirim dari luar negeri</p>
                         </div>
-
                     </div>
                     <hr />
-
                     <div className="row">
                         <div className="col-2">
                             <i class="fas fa-bus"></i>
@@ -112,7 +100,6 @@ const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah }) => {
                             <p className="subtitle-right">Nikmati promosi gratis ongkir dengan belajar minimum Rp 200.000</p>
                         </div>
                     </div>
-
                     <hr />
                     <div className="row">
                         <div className="col-2">
@@ -120,7 +107,7 @@ const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah }) => {
                         </div>
                         <div className="col-10">
                             <p className="subtitle-right">Standar</p>
-                            <p className="ket">1 - 6 har</p>
+                            <p className="ket">1 - 6 hari</p>
                         </div>
                         <div className="col-2">
                             <i class="fas fa-money-check-alt"></i>
@@ -129,7 +116,6 @@ const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah }) => {
                             <p className="subtitle-right"> Bayar di tempat berlaku </p>
                         </div>
                     </div>
-
                     <hr />
                     <h6 className="title-right">Pengembalian & gransi</h6>
                     <div className="row">
@@ -163,7 +149,6 @@ const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah }) => {
                             <h3>98%</h3>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
