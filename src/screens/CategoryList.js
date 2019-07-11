@@ -40,6 +40,8 @@ function text(text) {
     }
 }
 
+
+
 const Carousel = ({ category, subcategory }) => {
     return (
         <div>
@@ -83,6 +85,52 @@ const Carousel = ({ category, subcategory }) => {
     )
 }
 
+const SetStar = ({ star, ulasan }) => {
+    console.log(star)
+
+    if (star == 1) {
+        return (
+
+            <h6>
+                <i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i> <i class="far fa-star"></i><i class="far fa-star"></i> <span>({ulasan})</span>
+            </h6>
+
+        )
+    } else if (star == 2) {
+        return (
+
+            <h6>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i> <span>({ulasan})</span>
+            </h6>
+
+        )
+    } else if (star == 3) {
+        return (
+            <h6>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i> <span>({ulasan})</span>
+            </h6>
+        )
+    } else if (star == 4) {
+        return (
+            <h6>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> <span>({ulasan})</span>
+            </h6>
+        )
+    } else if (star == 5) {
+        return (
+            <h6><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span>({ulasan})</span></h6>
+        )
+    } else {
+        return (
+            <div>
+
+            </div>
+        )
+    }
+
+}
+
+
 class CategoryList extends Component {
     constructor(props) {
         super(props);
@@ -111,7 +159,7 @@ class CategoryList extends Component {
                                     <div class="card-body">
                                         <h5 class="card-title">{text(produk.title)}</h5>
                                         <h4>Rp {produk.price}</h4>
-                                        <h6>  <span> {produk.ulasan}</span></h6>
+                                        <SetStar star={produk.star} ulasan={produk.ulasan} />
                                         <div className="card-kota">{produk.city}</div>
                                     </div>
                                 </div>
@@ -133,7 +181,7 @@ class CategoryList extends Component {
                                 <div class="card-body">
                                     <h5 class="card-title">{text(produk.title)}</h5>
                                     <h4>Rp {produk.price}</h4>
-                                    <h6><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span> {produk.ulasan}</span></h6>
+                                    <SetStar star={produk.star} ulasan={produk.ulasan} />
                                     <div className="card-kota">{produk.city}</div>
                                 </div>
                             </div>
