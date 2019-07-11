@@ -103,14 +103,13 @@ class CategoryList extends Component {
                     return (
 
                         < div key={index} className="col-3" >
-                            <Link to={'/detail/' + produk.id}>
+                            <Link to={'/detail/' + produk.id} style={{ textDecoration: 'none' }}>
                                 <div class="card">
                                     <div className="card-head">
                                         <img src={produk.url[0]} class="card-img-top" />
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">{text(produk.title)}</h5>
-                                        {/* <p class="card-text"> of the card's content.</p> */}
                                         <h4>Rp {produk.price}</h4>
                                         <h6><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span> {produk.star}</span></h6>
                                         <div className="card-kota">{produk.city}</div>
@@ -133,7 +132,6 @@ class CategoryList extends Component {
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">{text(produk.title)}</h5>
-                                    {/* <p class="card-text"> of the card's content.</p> */}
                                     <h4>Rp {produk.price}</h4>
                                     <h6><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span> {produk.star}</span></h6>
                                     <div className="card-kota">{produk.city}</div>

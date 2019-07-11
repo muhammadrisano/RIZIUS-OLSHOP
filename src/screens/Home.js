@@ -5,14 +5,11 @@ class Home extends Component {
 
     render() {
         return (
-            <div style={{paddingTop:105}}>
+            <div style={{ paddingTop: 105 }}>
                 <Header />
                 <Body />
-
-
             </div>
         )
-
     }
 }
 export default Home
