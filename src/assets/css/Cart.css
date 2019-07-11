@@ -1,0 +1,53 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+input[type=checkbox]+label {
+    display: block;
+    margin: 5px 10px;
+    cursor: pointer;
+    width: 140px;
+}
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]+label:before {
+    content: "\2713";
+    border: 0.1em solid black;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    font-weight: bold;
+    padding-left:3px;
+    margin-right: 15px;
+    font-size: 10pt;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+}
+
+input[type=checkbox]+label:active:before {
+    transform: scale(0);
+}
+
+input[type=checkbox]:checked+label:before {
+    background-color: #f57224;
+    border: 0;
+    color: #fff;
+}
+.pilih{
+    font-size: 9pt
+}
+.d{
+    font-size: 10pt;
+    font-weight: bold;
+    color: #666
+}
+input[type=checkbox]:hover+label:before{
+    border-color: #f57224;
+    background: #fff8da;
+}
+input[type=checkbox]:checked:hover+label:before{
+    border: 1px solid #f57224;
+    background: #fff8da;
+    color: #f57224;
+}
