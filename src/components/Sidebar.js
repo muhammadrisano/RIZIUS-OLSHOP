@@ -55,9 +55,10 @@ function Sidebar() {
                 this.classList.remove('active')
                 let li1 = document.getElementById('sidebar2').getElementsByTagName('li')
                 li1 = [...li1]
-                li1.map((item) => {
-                    item.addEventListener('mouseenter', function (evt) {
+                li1.map((items) => {
+                    items.addEventListener('mouseenter', function (evt) {
                         let datas = data[this.innerText]
+                        console.log(item)
                         if (datas !== undefined) {
                             let a = datas.map(item =>
                                 <Link to={`/categoryList/${this.innerText.replace(/\s/g,'')}/${item.replace(/\s/g,'')}`}><li style={{ padding: "4px 10px", fontSize: 13.5, color: "#666" }}>{item}</li></Link>
@@ -68,8 +69,8 @@ function Sidebar() {
                             document.getElementById('sidebar3').style.display = 'block'
                         }
                     })
-                    item.addEventListener('mouseleave', function () {
-                        if (item.className === "active") {
+                    items.addEventListener('mouseleave', function () {
+                        if (items.className === "active") {
                             this.classList.remove('active')
                             this.getElementsByTagName('span')[0].style.display = 'none'
                             document.getElementById('sidebar3').style.display = 'none'
@@ -98,7 +99,7 @@ function Sidebar() {
         )
     })
     return (
-        <div style={{ background: "white", paddingTop: "5px", }}>
+        <div id={'sidebar'} style={{ background: "white", paddingTop: "5px", }}>
             <div style={{ backgroundColor: "white", boxShadow: "0px 0px 3px #999", position: "absolute", zIndex: "10", left: 80 }}>
                 <ul id={'sidebar1'} style={{ margin: 0, listStyleType: "none", height: "358px", width: 200, padding: "10px 0px" }}>
                     <li>Peralatan Elektronik <span style={{ position: "absolute", width: 20, right: 5, marginTop: -22, display: 'none' }}><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjYiIGhlaWdodD0iMjYiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2YzNmQwMCI+PGcgaWQ9InN1cmZhY2UxIj48cGF0aCBkPSJNNjguMzcsMjguNTk1bC05Ljc4MjUsOS43ODI1bDQ3LjczLDQ3LjYyMjVsLTQ3LjczLDQ3LjczbDkuNjc1LDkuNjc1bDUyLjU2NzUsLTUyLjU2NzVsNC45NDUsLTQuODM3NWwtNC45NDUsLTQuODM3NXoiPjwvcGF0aD48L2c+PC9nPjwvZz48L3N2Zz4=" width="100%" alt=""/></span></li>
@@ -127,6 +128,7 @@ function Sidebar() {
             </div>
         </div>
     )
+
 }
 
 export default Sidebar

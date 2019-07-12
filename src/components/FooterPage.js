@@ -397,7 +397,8 @@ const FooterPage = () => {
                       <span class="lzd-footer-title-small">HOME APPLIANCES</span>
                     <p><a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/philips/">Philips</a>
                     , <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/sharp/">Sharp</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/panasonic/">Panasonic</a>
+
+                    , <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/panasonic/">Panasonic</a>
                     , <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/miyako/">Miyako</a>
                     , <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/samsung/">Samsung</a>
                     , <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/lg/">LG</a>
