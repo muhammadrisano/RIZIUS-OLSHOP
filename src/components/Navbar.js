@@ -4,6 +4,7 @@ import Search from './search'
 import '../assets/css/Navbar.css'
 
 function Navbar(props) {
+
     return (
 
         <div className="fixed-top">
@@ -27,10 +28,11 @@ function Navbar(props) {
                         <Search />
                     </div>
                     <div style={{ float: 'left' }}>
-                        <Link to={"/cart"}><img src="//laz-img-cdn.alicdn.com/tfs/TB1xEeTdBGw3KVjSZFDXXXWEpXa-75-66.png" alt="gambar" style={{ width: 52, padding: 10 }} /></Link>
+                        <Link to={"/cart"}><img src="//laz-img-cdn.alicdn.com/tfs/TB1xEeTdBGw3KVjSZFDXXXWEpXa-75-66.png" alt="gambar" style={{ width: 52, padding: 10 }} /> </Link>
                     </div>
+
                     <div style={{ float: 'right' }}>
-                        <Link to={""}><img src={'//laz-img-cdn.alicdn.com/images/ims-web/TB1vIvSbMFY.1VjSZFnXXcFHXXa.png'} style={{ width: 200 }} alt=""/></Link>
+                        <Link to={""}><img src={'//laz-img-cdn.alicdn.com/images/ims-web/TB1vIvSbMFY.1VjSZFnXXcFHXXa.png'} style={{ width: 200 }} alt="" /></Link>
                     </div>
                 </div>
             </div>
