@@ -134,7 +134,7 @@ class CategoryList extends Component {
                             <Link to={'/detail/' + produk.id} style={{ textDecoration: 'none' }}>
                                 <div class="card">
                                     <div className="card-head">
-                                        <img src={produk.url[0]} class="card-img-top" alt=""/>
+                                        <img src={produk.url[0]} class="card-img-top" alt="" />
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">{text(produk.title)}</h5>
@@ -154,7 +154,7 @@ class CategoryList extends Component {
                         <Link to={'/detail/' + produk.id} style={{ textDecoration: 'none' }}>
                             <div class="card">
                                 <div className="card-head">
-                                    <img src={produk.url[0]} class="card-img-top" alt=""/>
+                                    <img src={produk.url[0]} class="card-img-top" alt="" />
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">{text(produk.title)}</h5>
@@ -206,8 +206,8 @@ class CategoryList extends Component {
                             </div>
                         </div>
                         <div class="navbar navbar-light bg-light">
-                            <h5 class="navbar-brand"><b>Handphone</b></h5>
-                            <p>{pencarian} barang ditemukan dalam Handphone</p>
+                            <h5 class="navbar-brand"><b>{this.state.idCategoriParams}</b></h5>
+                            <p>{pencarian} barang ditemukan dalam {this.state.idCategoriParams}</p>
                             <form class="form-inline">
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
@@ -274,8 +274,8 @@ class CategoryList extends Component {
                                 <p>Lazada: Situs Hp Nomor 1 di Indonesia</p>
                                 <p style={paragraf2}>Di lazada anda dapat menemukan berbagai jenis handphone dengan harga yang beraneka ragam. Mulai dari harga hp dibawah 1 juta, harga hp dibawah 500 ribu, harga hp murah berkualitas, harga hp samsung android murah, harga hp samsung android termurah, harga ponsel samsung, harga ponsel terbaru, dan harga <a href="https://www.lazada.co.id/beli-smartphone/">smartphone</a> murah. Banyak keuntungan yang anda dapatkan dengan berbelanja di situs hp Lazada. Seperti jenis sistem pembayaran yang beraneka ragam mulai dari kredit hp dengan cicilan 0%, COD, serta voucher dan <a href="https://www.lazada.co.id/special-promotion/">diskon setiap hari</a>.</p></div></div>
                     </div >
-                  <FooterPageDua />
-                </Container >              
+                    <FooterPageDua />
+                </Container >
             </div >
         )
     }
