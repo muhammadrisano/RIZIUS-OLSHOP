@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 function payment({cart}) {
     let price = 0 
     cart.map(item => {

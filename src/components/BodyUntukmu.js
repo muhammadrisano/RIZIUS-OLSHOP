@@ -1,5 +1,6 @@
 import React from 'react'
 import untukmu from '../database/untukmu'
+
 let BodyUntukmu = () => {
     return (
         <div className="container-fluid untukmu">
@@ -9,7 +10,7 @@ let BodyUntukmu = () => {
                     <div className="col-2">
                         <div class="card">
                             <div className="card-head">
-                                <img src={untuk.url} class="card-img-top" />
+                                <img src={untuk.url} class="card-img-top" alt=""/>
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">{untuk.title}</h5>
@@ -20,9 +21,7 @@ let BodyUntukmu = () => {
                             </div>
                         </div>
                     </div>
-
                 )}
-
             </div>
         </div>
     )

@@ -5,8 +5,6 @@ import BodyKoleksi from './BodyKoleksi';
 import BodyLazmall from './BodyLazmall';
 import BodyKategori from '../components/BodyKategori';
 import BodyUntukmu from '../components/BodyUntukmu'
-// import CategoryList from '../screens/CategoryList';
-
 
 
 let Body = () => {
@@ -27,7 +25,6 @@ let Body = () => {
             <BodyLazmall />
             <BodyKategori />
             <BodyUntukmu />
-
         </div>
     )
 }

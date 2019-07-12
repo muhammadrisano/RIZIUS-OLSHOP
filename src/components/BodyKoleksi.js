@@ -1,7 +1,7 @@
 import React from 'react'
 import koleksi from '../database/koleksi'
-let BodyKoleksi = () => {
 
+let BodyKoleksi = () => {
     return (
         <div>
             <div className="container-fluid koleksi">
@@ -25,12 +25,7 @@ let BodyKoleksi = () => {
                                 </div>
                             </div>
                         </div>
-
-
-
                     )}
-
-
                 </div>
             </div>
         </div>

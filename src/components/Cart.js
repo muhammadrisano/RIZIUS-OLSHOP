@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import BodyUntukmu from './BodyUntukmu';
 function Cart({ cart }) {
     let price = 0
+
     return (
         <div>
             <div style={{ padding: "0px 80px", width: "100%", paddingTop: 120 }}>

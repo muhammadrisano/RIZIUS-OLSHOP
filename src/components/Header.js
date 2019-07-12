@@ -1,14 +1,10 @@
 import React, { Component } from 'react'
-import { UncontrolledCarousel } from 'reactstrap';
 import '../assets/css/home.css'
 import slide1 from '../assets/images/header/kisspng-computer-icons-system-information-system-5abf3769004b83.2630223215224810010012.jpg'
 import slide2 from '../assets/images/header/TB1a4CcXET1gK0jSZFhXXaAtVXa.png_1200x1200Q100.jpg_.webp'
 import slide3 from '../assets/images/header/TB1q1b4Xlr0gK0jSZFnXXbRRXXa.png_1200x1200Q100.jpg_.webp'
 import slide4 from '../assets/images/header/TB1Xgv5Xlr0gK0jSZFnXXbRRXXa.jpg_1200x1200Q100.jpg_.webp'
 import Sidebar from './Sidebar';
-
-
-
 
 
 const Header = () => {
@@ -34,7 +30,6 @@ const Header = () => {
                     <div className="carousel-item">
                         <img src={slide4} className="d-block w-100" alt="slider3" />
                     </div>
-
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>

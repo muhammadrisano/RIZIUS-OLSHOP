@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 function buatPesanan({ cart }) {
     let price = 0
+
     return (
         <div>
             <div style={{ overflow: "hidden", padding: "0px 80px", width: "100%", paddingTop: 120 }}>
