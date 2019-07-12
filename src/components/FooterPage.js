@@ -74,7 +74,7 @@ const verified = {
 
 const FooterPage = () => {
   return (
-    <div className="container-fluid footer">
+    <div className="container-fluid footer mt-6">
       <div className="batasFooter">
         <div className="row bg-#F8F8FF ">
           <div className="col-3">
@@ -396,14 +396,15 @@ const FooterPage = () => {
                     <p class="lzd-footer-title-small">
                       <span class="lzd-footer-title-small">HOME APPLIANCES</span>
                     <p><a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/philips/">Philips</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/sharp/">Sharp</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/panasonic/">Panasonic</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/miyako/">Miyako</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/samsung/">Samsung</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/lg/">LG</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/nescafe-dolce-gusto/">Nescafe</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/cosmos/">Cosmos</a>
-                    ,<a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/">more...</a></p></p>
+                    , <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/sharp/">Sharp</a>
+
+                    , <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/panasonic/">Panasonic</a>
+                    , <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/miyako/">Miyako</a>
+                    , <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/samsung/">Samsung</a>
+                    , <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/lg/">LG</a>
+                    , <a class="lzd-footer-category-tag" href="//www.lazada.co.id/nescafe-dolce-gusto/">Nescafe</a>
+                    , <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/cosmos/">Cosmos</a>
+                    , <a class="lzd-footer-category-tag" href="//www.lazada.co.id/beli-peralatan-rumah-tangga/">more...</a></p></p>
                   </div>
                   <div class="lzd-footer-categoty-division">
                     <p class="lzd-footer-title-small">

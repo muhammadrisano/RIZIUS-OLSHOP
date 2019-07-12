@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import DetailUser from '../components/DetailUser'
 import '../assets/css/detail.css'
 import FooterPageDua from '../components/FooterPageDua';
+import BodyLazmall from '../components/BodyLazmall';
 
 class Detail extends Component {
     constructor(props) {
@@ -37,11 +38,18 @@ class Detail extends Component {
         })
     }
     render() {
-        console.log(this.state.produk);
         return (
-            <div className="container-fluid detail">
-                <DetailUser foto={this.state.foto} produk={this.state.produk} setFoto={this.setFoto} jumlah={this.state.jumlah} setJumlah={this.setJumlah} />
-                <FooterPageDua />
+            <div>
+                <div className="container-fluid detail">
+                    <DetailUser addToCart={this.props.addToCart} id={this.props.params} foto={this.state.foto} produk={this.state.produk} setFoto={this.setFoto} jumlah={this.state.jumlah} setJumlah={this.setJumlah} />
+
+                </div>
+                <div className="mt-4">
+                    <BodyLazmall />
+                </div>
+                <div className="container-fluid detail">
+                    <FooterPageDua />
+                </div>
             </div>
         )
 
