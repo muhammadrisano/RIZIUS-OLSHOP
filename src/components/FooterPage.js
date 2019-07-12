@@ -74,7 +74,7 @@ const verified = {
 
 const FooterPage = () => {
   return (
-    <div className="container-fluid footer">
+    <div className="container-fluid footer mt-6">
       <div className="batasFooter">
         <div className="row bg-#F8F8FF ">
           <div className="col-3">
