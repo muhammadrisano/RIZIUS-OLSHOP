@@ -6,7 +6,7 @@ import '../assets/css/Navbar.css'
 function Navbar(props) {
     return (
 
-        <div>
+        <div className="fixed-top">
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <ul className={'navbar-nav ml-auto'}>
                     <li><Link>LEBIH MURAH DI APP</Link></li>
@@ -30,7 +30,7 @@ function Navbar(props) {
                         <Link to={"/cart"}><img src="//laz-img-cdn.alicdn.com/tfs/TB1xEeTdBGw3KVjSZFDXXXWEpXa-75-66.png" alt="gambar" style={{ width: 52, padding: 10 }} /></Link>
                     </div>
                     <div style={{ float: 'right' }}>
-                        <Link to={""}><img src={'//laz-img-cdn.alicdn.com/images/ims-web/TB1vIvSbMFY.1VjSZFnXXcFHXXa.png'} style={{ width: 200 }} /></Link>
+                        <Link to={""}><img src={'//laz-img-cdn.alicdn.com/images/ims-web/TB1vIvSbMFY.1VjSZFnXXcFHXXa.png'} style={{ width: 200 }} alt=""/></Link>
                     </div>
                 </div>
             </div>

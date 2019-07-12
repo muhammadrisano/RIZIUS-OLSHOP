@@ -9,8 +9,10 @@ let BodyLazmall = () => {
                 {lazmall.map((laz, index) =>
                     <div className="col-2">
                         <div class="card">
-                            <div className="card-head"><img src={laz.url} class="card-img-top" alt="lazmall" /></div>
 
+                            <div className="card-head">
+                                <img src={laz.url} class="card-img-top" alt="lazmall" />
+                            </div>
                             <div class="card-body">
                                 <img src={laz.icon} alt="" className="img-thumbnail" />
                                 <h5 class="card-title">{laz.title}</h5>
@@ -19,14 +21,8 @@ let BodyLazmall = () => {
                         </div>
                     </div>
                 )}
-
-
-
-
             </div>
         </div>
-
-
     )
 }
 
