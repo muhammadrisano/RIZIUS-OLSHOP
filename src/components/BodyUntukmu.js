@@ -3,14 +3,14 @@ import untukmu from '../database/untukmu'
 
 let BodyUntukmu = () => {
     return (
-        <div className="container-fluid untukmu">
+        <div className="container-fluid untukmu" style={{ overflow: "hidden" }}>
             <h3>Hanya Untukmu</h3>
             <div className="row">
                 {untukmu.map((untuk, index) =>
                     <div className="col-2">
                         <div class="card">
                             <div className="card-head">
-                                <img src={untuk.url} class="card-img-top" alt=""/>
+                                <img src={untuk.url} class="card-img-top" alt="" />
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">{untuk.title}</h5>
