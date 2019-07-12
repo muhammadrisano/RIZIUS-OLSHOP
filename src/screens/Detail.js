@@ -37,10 +37,9 @@ class Detail extends Component {
         })
     }
     render() {
-        console.log(this.state.produk);
         return (
             <div className="container-fluid detail">
-                <DetailUser foto={this.state.foto} produk={this.state.produk} setFoto={this.setFoto} jumlah={this.state.jumlah} setJumlah={this.setJumlah} />
+                <DetailUser addToCart={this.props.addToCart} id={this.props.params} foto={this.state.foto} produk={this.state.produk} setFoto={this.setFoto} jumlah={this.state.jumlah} setJumlah={this.setJumlah} />
                 <FooterPageDua />
             </div>
         )
