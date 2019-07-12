@@ -22,6 +22,9 @@ class App extends Component {
     this.state.cart.push(data)
     console.log(this.state.cart)
   }
+  changeJumlah = (index, data) => {
+    this.setState(this.state.cart[index] = data)
+  }
   render() {
     return (
       <BrowserRouter>
@@ -36,7 +39,7 @@ class App extends Component {
           <Route path='/categoryList/:category/:subcategory' exact render={(props) => <CategoryList dataProduk={this.state.dataProduk} params={props.match.params} />} />
 
           <Route path='/payment' exact render={()=> <Payment cart={this.state.cart}/>} />
-          <Route path='/cart' exact render={()=> <Cart cart={this.state.cart} product={this.state.dataProduk}/>} />
+          <Route path='/cart' exact render={()=> <Cart cart={this.state.cart} changeJumlah={this.changeJumlah}/>} />
           <Route path='/buatpesanan' exact render={()=> <BuatPesanan cart={this.state.cart}/>} />
           <FooterPage />
         </div>

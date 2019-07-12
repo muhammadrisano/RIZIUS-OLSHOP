@@ -2,9 +2,20 @@ import React from 'react'
 import '../assets/css/Cart.css'
 import { Link } from 'react-router-dom'
 import BodyUntukmu from './BodyUntukmu';
-function Cart({ cart }) {
+function Cart({ cart ,changeJumlah}) {
     let price = 0
-
+    function add(e){
+        let data = cart.find(item => item.id === e.currentTarget.id)
+        let index = cart.indexOf(data)
+        data.jumlah = Number(data.jumlah)+1
+        changeJumlah(index,data)
+    }
+    function min(e){
+        let data = cart.find(item => item.id === e.currentTarget.id)
+        let index = cart.indexOf(data)
+        data.jumlah = Number(data.jumlah)-1
+        changeJumlah(index,data)
+    }
     return (
         <div>
             <div style={{ padding: "0px 80px", width: "100%", paddingTop: 120 }}>
@@ -50,9 +61,9 @@ function Cart({ cart }) {
                                         <p style={{ fontSize: "15pt" }}><span className={'far fa-heart'} style={{ marginRight: 20, marginLeft: 10, cursor: "pointer" }}></span><span className={"fa fa-trash-o"} style={{ cursor: "pointer" }}></span></p>
                                     </div>
                                     <div style={{ marginTop: 10 }} >
-                                        <button style={{ fontSize: "10pt", color: "#999", width: "35px", height: "35px", background: '#eee', border: "0", float: 'left' }}><span className={"fa fa-minus"}></span></button>
+                                        <button id={item.id} style={{ fontSize: "10pt", color: "#999", width: "35px", height: "35px", background: '#eee', border: "0", float: 'left' }} onClick={min}><span className={"fa fa-minus"}></span></button>
                                         <input style={{ width: 50, height: "35px", float: "left", textAlign: "center" }} value={item.jumlah}></input>
-                                        <button style={{ fontSize: "10pt", color: "#999", width: "35px", height: "35px", background: '#eee', border: "0", float: 'left' }}><span className={"fa fa-plus"}></span></button>
+                                        <button id={item.id} style={{ fontSize: "10pt", color: "#999", width: "35px", height: "35px", background: '#eee', border: "0", float: 'left' }} onClick={add}><span className={"fa fa-plus"}></span></button>
                                     </div>
                                 </div>
                             )
