@@ -1,7 +1,6 @@
 import React from 'react'
 
-const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah }) => {
-
+const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah , id , addToCart }) => {
     const onHover = (e) => {
         setFoto(e.target.src);
     }
@@ -11,6 +10,11 @@ const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah }) => {
     const kurangJumlah = () => {
         setJumlah(jumlah - 1)
     }
+    const add = () => {
+        let data = {id:id,title:produk.title,url:produk.url[0],price:produk.price,jumlah:document.getElementById('jumlah').value}
+        addToCart(data)
+    }
+
     return (
         <div className="detail-user">
             <div className="row">
@@ -72,7 +76,7 @@ const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah }) => {
 
                     <div className="button-detail">
                         <button className="btn btn-beli">Beli Sekarang</button>
-                        <button className="btn btn-tambah">Tambah ke Troli</button>
+                        <button className="btn btn-tambah" onClick={add}>Tambah ke Troli</button>
                     </div>
 
                 </div>

@@ -19,8 +19,12 @@ class App extends Component {
     super(props);
     this.state = {
       dataProduk: product,
-      cart: null
+      cart: []
     }
+  }
+  addToCart = (data) =>{
+    this.state.cart.push(data)
+    console.log(this.state.cart)
   }
   render() {
     return (
@@ -28,15 +32,15 @@ class App extends Component {
         <div>
           <Navbar />
           <Route path='/' exact component={Home} />
-          <Route path='/detail/:idproduk' exact render={(props) => <Detail dataProduk={this.state.dataProduk} params={props.match.params.idproduk} />} />
+          <Route path='/detail/:idproduk' exact render={(props) => <Detail dataProduk={this.state.dataProduk} addToCart={this.addToCart} params={props.match.params.idproduk} />} />
           <Route path='/list' exact component={List} />
 
           <Route path='/categoryList/:category' exact render={(props) => <CategoryList dataProduk={this.state.dataProduk} params={props.match.params} />} />
           <Route path='/categoryList/:category/:subcategory' exact render={(props) => <CategoryList dataProduk={this.state.dataProduk} params={props.match.params} />} />
 
-          <Route path='/payment' exact component={Payment} />
-          <Route path='/cart' exact component={Cart} />
-          <Route path='/buatpesanan' exact component={BuatPesanan} />
+          <Route path='/payment' exact render={()=> <Payment cart={this.state.cart}/>} />
+          <Route path='/cart' exact render={()=> <Cart cart={this.state.cart} product={this.state.dataProduk}/>} />
+          <Route path='/buatpesanan' exact render={()=> <BuatPesanan cart={this.state.cart}/>} />
           <FooterPage />
         </div>
       </BrowserRouter>

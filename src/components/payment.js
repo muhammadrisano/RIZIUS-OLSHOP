@@ -1,6 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-function payment() {
+function payment({cart}) {
+    let price = 0 
+    cart.map(item => {
+        price = item.price*item.jumlah
+    })
+    price = price +17500
     return (
         <div style={{ marginBottom: 100, overflow: "hidden" }}>
             <div style={{ padding: "0px 80px", width: "100%", paddingTop: 120 }}>
@@ -60,12 +65,12 @@ function payment() {
                     <p style={{ float: "left", fontSize: "13pt", fontWeight: "bold" }}>Riwayat pesanan</p>
                 </div>
                 <div style={{ overflow: "hidden" }}>
-                    <p style={{ float: "left", fontSize: "10pt", color: "#999" }}>Subtotal (1 Barang)</p>
-                    <p style={{ float: "right", margin: 0 }}>Rp47.000</p>
+                    <p style={{ float: "left", fontSize: "10pt", color: "#999" }}>Subtotal</p>
+                    <p style={{ float: "right", margin: 0 }}>{`Rp.${price}`}</p>
                 </div>
                 <div>
                     <p style={{ float: "left", fontSize: "13pt", color: "#333", paddingTop: 10 }}>Jumlah Total</p>
-                    <p style={{ float: "right", margin: 0, color: "#f57224", fontSize: "20pt" }}>Rp47.000</p>
+                    <p style={{ float: "right", margin: 0, color: "#f57224", fontSize: "20pt" }}>{`Rp.${price}`}</p>
                 </div>
             </div>
         </div>
