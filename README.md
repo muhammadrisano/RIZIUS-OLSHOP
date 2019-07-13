@@ -12,16 +12,38 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequiste
+- NPM - Download and Install [NVM](https://github.com/creationix/nvm) (Node Version Manager)
 
-### `This application has deployed on netlify`
-(https://eloquent-goldberg-05a601.netlify.com/).
+## Installation
+### Clone
+```
+$ git clone https://github.com/muhammadrisano/RIZIUS-OLSHOP.git
+$ cd RIZIUS-OLSHOP
+$ npm install
+```
 
 
-<h3>Rizius Ecommerse</h3>
-<h4>1. M. Risano</h4>
-<h4>2. Khusni Jafar</h4>
-<h4>3. Zidni</h4>
+### Start Development Server
+```
+$ npm start
+```
+
+### trials
+```
+check to https://eloquent-goldberg-05a601.netlify.com/
+```
+
+### Contributon
+```
+Rizius Ecommerse
+1. M. Risano
+2. Khusni Jafar
+3. Zidni
+```
+### License
+----
+
+[Website](http://muhammadrisano.online) © [Muhammmad Risano Akbar](https://github.com/muhammadrisano/)
+
