@@ -9,7 +9,7 @@ function buatPesanan({ cart }) {
                 <div style={{ width: "66%", float: "left", marginRight: 10 }}>
                     <div style={{ width: "100%", background: "#fafafa", overflow: "hidden", color: "#999", padding: "10px" }}>
                         <div style={{ float: "left" }}>
-                            <p style={{ fontSize: "10pt", margin: 0 }}>1 BARANG</p>
+                            <p style={{ fontSize: "10pt", margin: 0 }}>BARANG</p>
                         </div>
                         <div style={{ float: "right" }}>
                             <p style={{ margin: "0px 10px", fontSize: "10pt" }}>KUANTITAS</p>
@@ -21,7 +21,7 @@ function buatPesanan({ cart }) {
                     <div style={{ overflow: 'hidden', width: "100%", background: "white", color: "#999", marginTop: 10 }}>
                         <div style={{ width: "100%", overflow: 'hidden', background: "#fafafa", color: "#999", padding: "10px 5px" }}>
                             <div style={{ float: "left" }}>
-                                <p style={{ margin: 0, marginLeft: 5, color: "black", fontWeight: "bold", fontSize: "10pt" }}>Pesanan 1 dari 1</p>
+                                <p style={{ margin: 0, marginLeft: 5, color: "black", fontWeight: "bold", fontSize: "10pt" }}>Pesanan</p>
                             </div>
                             <div style={{ float: "right", paddingRight: 10, fontSize: "10pt" }}>
                                 <p style={{ margin: 0 }}>Dikirim oleh <span style={{ color: "black" }}>Gallery Dimyati</span></p>
