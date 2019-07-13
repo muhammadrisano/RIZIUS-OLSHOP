@@ -37,10 +37,10 @@ check to https://eloquent-goldberg-05a601.netlify.com/
 
 ### Contributon
 ```
-<h3>Rizius Ecommerse</h3>
-<h4>1. M. Risano</h4>
-<h4>2. Khusni Jafar</h4>
-<h4>3. Zidni</h4>
+Rizius Ecommerse
+1. M. Risano
+2. Khusni Jafar
+3. Zidni
 ```
 ### License
 ----
