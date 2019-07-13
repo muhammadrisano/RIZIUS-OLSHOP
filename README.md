@@ -38,9 +38,9 @@ check to https://eloquent-goldberg-05a601.netlify.com/
 ### Contributon
 ```
 Rizius Ecommerse
-1. M. Risano
-2. Khusni Jafar
-3. Zidni
+1. M. Risano [Link Github](https://github.com/muhammadrisano)
+2. Khusni Jafar [Link Github](https://github.com/Khusnijafar)
+3. Zidni [Link Github](https://github.com/zidni0192)
 ```
 ### License
 ----
