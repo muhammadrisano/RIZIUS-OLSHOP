@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../assets/css/Cart.css'
 import { Link } from 'react-router-dom'
 import BodyUntukmu from './BodyUntukmu';
-function Cart({ cart ,changeJumlah}) {
+function Cart({ cart ,changeJumlah ,deleteData}) {
+    const [id,setId] = useState(0)
     let price = 0
     function add(e){
         let data = cart.find(item => item.id === e.currentTarget.id)
@@ -15,6 +16,9 @@ function Cart({ cart ,changeJumlah}) {
         let index = cart.indexOf(data)
         data.jumlah = Number(data.jumlah)-1
         changeJumlah(index,data)
+    }
+    function deleteDatas(e){
+        deleteData(e.currentTarget.id)
     }
     return (
         <div>
@@ -39,7 +43,7 @@ function Cart({ cart ,changeJumlah}) {
                                 Dapatkan Voucher <span className={'fa fa-chevron-down'}></span>
                             </div>
                         </div>
-                        {cart.map(item => {
+                        {cart.map((item,index) => {
                             price += item.price*item.jumlah
                             return (
                                 <div style={{ overflow: 'hidden', padding: "20px 0px" }}>
@@ -58,7 +62,7 @@ function Cart({ cart ,changeJumlah}) {
                                         <p style={{ fontSize: "14pt", color: "#f57224", margin: 5 }}>{`Rp.${item.price}`}</p>
                                         {/* <p style={{ fontSize: "10pt", color: "", textDecoration: "line-through", margin: 5 }}>Rp150.000</p>
                                         <p style={{ fontSize: "11pt", color: "black" }}>-80%</p> */}
-                                        <p style={{ fontSize: "15pt" }}><span className={'far fa-heart'} style={{ marginRight: 20, marginLeft: 10, cursor: "pointer" }}></span><span className={"fa fa-trash-o"} style={{ cursor: "pointer" }}></span></p>
+                                        <p style={{ fontSize: "15pt" }}><span className={'far fa-heart'} style={{ marginRight: 20, marginLeft: 10, cursor: "pointer" }}></span><span id={item.id} onClick={deleteDatas} className={"fa fa-trash-o"} style={{ cursor: "pointer" }}></span></p>
                                     </div>
                                     <div style={{ marginTop: 10 }} >
                                         <button id={item.id} style={{ fontSize: "10pt", color: "#999", width: "35px", height: "35px", background: '#eee', border: "0", float: 'left' }} onClick={min}><span className={"fa fa-minus"}></span></button>

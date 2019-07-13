@@ -1,6 +1,6 @@
 import React from 'react'
 
-const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah , id , addToCart }) => {
+const DetailUser = ({ changeJumlah, cart, produk, foto, setFoto, jumlah, setJumlah, id, addToCart }) => {
     const onHover = (e) => {
         setFoto(e.target.src);
     }
@@ -10,9 +10,16 @@ const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah , id , addToCart 
     const kurangJumlah = () => {
         setJumlah(jumlah - 1)
     }
-    const add = () => {
-        let data = {id:id,title:produk.title,url:produk.url[0],price:produk.price,jumlah:document.getElementById('jumlah').value}
-        addToCart(data)
+    const add = (e) => {
+        let data = { id: id, title: produk.title, url: produk.url[0], price: produk.price, jumlah: document.getElementById('jumlah').value }
+        let dataFind = cart.find(item => item.id === id)
+        if(dataFind){
+            let index = cart.indexOf(dataFind)
+            dataFind.jumlah = Number(cart[index].jumlah) + Number(document.getElementById('jumlah').value)
+            changeJumlah(index, dataFind)
+        }else{
+            addToCart(data)
+        }
     }
 
     return (
