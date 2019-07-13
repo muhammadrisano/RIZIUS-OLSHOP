@@ -30,10 +30,13 @@ $ npm install
 $ npm start
 ```
 
-### trials
+### this app has deployed on netlify
 ```
-check to https://eloquent-goldberg-05a601.netlify.com/
+check it out https://eloquent-goldberg-05a601.netlify.com/
 ```
+
+## Demo
+![home](/src/assets/images/header/HomeLazada.png)
 
 ### Contributon
 ```

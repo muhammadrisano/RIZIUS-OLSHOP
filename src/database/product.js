@@ -9,8 +9,7 @@ const product = [
         star: '4',
         ulasan: '1234',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/f8971c6eb0d86e69ee79df76c76f7253.jpg', 'https://id-test-11.slatic.net/p/3c27a62718f080e4b88d8ca1d5fb5dea.jpg', 'https://id-test-11.slatic.net/p/a0be79358a6fb8c7c97cc9d4e3bcb040.jpg'],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/f8971c6eb0d86e69ee79df76c76f7253.jpg', 'https://id-test-11.slatic.net/p/3c27a62718f080e4b88d8ca1d5fb5dea.jpg', 'https://id-test-11.slatic.net/p/a0be79358a6fb8c7c97cc9d4e3bcb040.jpg'],        
     },
     {
         id: 2,
@@ -23,8 +22,7 @@ const product = [
         star: '4',
         ulasan: '7345',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/5da9825f9b6d59f8713763eb5b7bc3f1.jpg', 'https://id-test-11.slatic.net/p/2250fade00c63250a6c48ce79d35bede.jpg', 'https://id-test-11.slatic.net/p/e6582754f192860c6fe3b39ba8169942.jpg'],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/5da9825f9b6d59f8713763eb5b7bc3f1.jpg', 'https://id-test-11.slatic.net/p/2250fade00c63250a6c48ce79d35bede.jpg', 'https://id-test-11.slatic.net/p/e6582754f192860c6fe3b39ba8169942.jpg'],        
     },
     {
         id: 3,
@@ -37,8 +35,7 @@ const product = [
         star: '5',
         ulasan: '2282',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/bb75b5aa1b95ea16c10b6adc4b35ace2.jpg', 'https://id-test-11.slatic.net/p/1186c6cbd94a8c0b555e678f13f52924.jpg', 'https://id-test-11.slatic.net/p/6380393ce7a637ce807234f4a1d3d687.jpg'],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/bb75b5aa1b95ea16c10b6adc4b35ace2.jpg', 'https://id-test-11.slatic.net/p/1186c6cbd94a8c0b555e678f13f52924.jpg', 'https://id-test-11.slatic.net/p/6380393ce7a637ce807234f4a1d3d687.jpg'],        
     },
     {
         id: 4,
@@ -50,8 +47,7 @@ const product = [
         star: '5',
         ulasan: '543',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/8a27295f329ae64c77a025a1aae5276e.jpg', 'https://id-live-01.slatic.net/original/883d20094343fee5bd35c752e768f4ab.jpg', 'https://id-test-11.slatic.net/p/4d7b1cdfadebbd66340b44829261c6ed.jpg'],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/8a27295f329ae64c77a025a1aae5276e.jpg', 'https://id-live-01.slatic.net/original/883d20094343fee5bd35c752e768f4ab.jpg', 'https://id-test-11.slatic.net/p/4d7b1cdfadebbd66340b44829261c6ed.jpg'],        
     },
     {
         id: 5,
@@ -63,8 +59,7 @@ const product = [
         star: '5',
         ulasan: '242',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/df62ba76fffa84de6e98019d4c0a74cd.jpg', 'https://id-test-11.slatic.net/p/9546ead0af3e2f5ccba068998389e9a2.jpg', 'https://id-test-11.slatic.net/p/91f9305378a9caf846728bc50d03fc09.jpg'],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/df62ba76fffa84de6e98019d4c0a74cd.jpg', 'https://id-test-11.slatic.net/p/9546ead0af3e2f5ccba068998389e9a2.jpg', 'https://id-test-11.slatic.net/p/91f9305378a9caf846728bc50d03fc09.jpg'],        
     },
     {
         id: 6,
@@ -76,8 +71,7 @@ const product = [
         star: '5',
         ulasan: '867',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/8eec65319407473ad70d71bc6a87e717.jpg', 'https://id-test-11.slatic.net/p/9a7645f6689ef47d7765a7a547793c29.jpg', 'https://id-live-01.slatic.net/original/1c1fddc6c39fee0aa7d45d7ed905ee6b.jpg'],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/8eec65319407473ad70d71bc6a87e717.jpg', 'https://id-test-11.slatic.net/p/9a7645f6689ef47d7765a7a547793c29.jpg', 'https://id-live-01.slatic.net/original/1c1fddc6c39fee0aa7d45d7ed905ee6b.jpg'],        
     },
     {
         id: 7,
@@ -89,8 +83,7 @@ const product = [
         star: '5',
         ulasan: '822',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/2058c299eb37c07f61940808494ddb93.jpg', 'https://id-test-11.slatic.net/p/4d26e8dd71eccebb00204c5e2f869239.jpg', 'https://id-test-11.slatic.net/p/2d5e935abfaa951845bf4d8165238290.jpg'],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/2058c299eb37c07f61940808494ddb93.jpg', 'https://id-test-11.slatic.net/p/4d26e8dd71eccebb00204c5e2f869239.jpg', 'https://id-test-11.slatic.net/p/2d5e935abfaa951845bf4d8165238290.jpg'],        
     },
     {
         id: 8,
@@ -102,8 +95,7 @@ const product = [
         star: '5',
         ulasan: '113',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/e9731078ce854193bcf3530586430e54.jpg', 'https://id-test-11.slatic.net/p/639e158eb2cce9c6e64b267d7be46e05.jpg', 'https://id-test-11.slatic.net/p/091dd7d45c3793590b152a1c2e0021b1.jpg'],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/e9731078ce854193bcf3530586430e54.jpg', 'https://id-test-11.slatic.net/p/639e158eb2cce9c6e64b267d7be46e05.jpg', 'https://id-test-11.slatic.net/p/091dd7d45c3793590b152a1c2e0021b1.jpg'],        
     },
     {
         id: 9,
@@ -115,8 +107,7 @@ const product = [
         star: '5',
         ulasan: '256',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/2d59e557016e2626d6fe91181395bc2e.jpg', 'https://id-test-11.slatic.net/p/3a7f5531c6016a307765beaad7900977.jpg', 'https://id-test-11.slatic.net/p/a55d1ab87a8be07db2a7a44944137ebf.jpg'],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/2d59e557016e2626d6fe91181395bc2e.jpg', 'https://id-test-11.slatic.net/p/3a7f5531c6016a307765beaad7900977.jpg', 'https://id-test-11.slatic.net/p/a55d1ab87a8be07db2a7a44944137ebf.jpg'],        
     },
     {
         id: 10,
@@ -128,8 +119,7 @@ const product = [
         star: '5',
         ulasan: '2',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/572bf374ecbb0ab010a33405df05fe48.jpg', 'https://id-test-11.slatic.net/p/5cdd75aa1c2e7c83fd34e6cdd52a4ad9.jpg', 'https://id-test-11.slatic.net/p/ae77ffa519fc62364047c971162cce61.jpg'],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/572bf374ecbb0ab010a33405df05fe48.jpg', 'https://id-test-11.slatic.net/p/5cdd75aa1c2e7c83fd34e6cdd52a4ad9.jpg', 'https://id-test-11.slatic.net/p/ae77ffa519fc62364047c971162cce61.jpg'],        
     }, {
         id: 11,
         title: 'Huawei Y7 Pro 2019',
@@ -140,8 +130,7 @@ const product = [
         star: '4',
         ulasan: '1066',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/9404ab9dc386d25a36157c83bb005ea6.jpg', 'https://id-test-11.slatic.net/p/e25a6ebb923f14b426556294782f2c88.jpg', 'https://id-test-11.slatic.net/p/e6d45eb2e11a936136fc92e6f5c2d66c.jpg'],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/9404ab9dc386d25a36157c83bb005ea6.jpg', 'https://id-test-11.slatic.net/p/e25a6ebb923f14b426556294782f2c88.jpg', 'https://id-test-11.slatic.net/p/e6d45eb2e11a936136fc92e6f5c2d66c.jpg'],        
     }, {
         id: 12,
         title: 'Realme 3 Pro Smartphone [6GB / 128GB] Garansi Resmi Promo',
@@ -152,8 +141,7 @@ const product = [
         star: '4',
         ulasan: '17',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/f7dd6706fd042ce117bc22be709e15ea.jpg', 'https://id-test-11.slatic.net/p/60a0660981ef146f328371cf2c633da5.jpg', 'https://id-test-11.slatic.net/p/793a0dc5719b068f7588d638d9302771.jpg'],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/f7dd6706fd042ce117bc22be709e15ea.jpg', 'https://id-test-11.slatic.net/p/60a0660981ef146f328371cf2c633da5.jpg', 'https://id-test-11.slatic.net/p/793a0dc5719b068f7588d638d9302771.jpg'],        
     }, {
         id: 13,
         title: 'Apple iPhone 8 Plus 256GB Perak',
@@ -164,8 +152,7 @@ const product = [
         star: '5',
         ulasan: '1',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/2/apple-iphone-8-plus-perak-256gb-1513246820-62887376-691f20bfb59be8bb935ccf9989d03f3e-catalog.jpg_200x200q80.jpg_.webp', 'https://id-test-11.slatic.net/p/2/apple-iphone-8-plus-abu-abu-64gb-1513246837-53887376-0e56e8672c2a4c705eccdadf788ce21f-catalog.jpg_200x200q80.jpg_.webp', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/2/apple-iphone-8-plus-perak-256gb-1513246820-62887376-691f20bfb59be8bb935ccf9989d03f3e-catalog.jpg_200x200q80.jpg_.webp', 'https://id-test-11.slatic.net/p/2/apple-iphone-8-plus-abu-abu-64gb-1513246837-53887376-0e56e8672c2a4c705eccdadf788ce21f-catalog.jpg_200x200q80.jpg_.webp', ''],        
     }, {
         id: 14,
         title: 'NOKIA X6 hp Nokia 6.1 Plus 6G/64G - COD, Gratis Ongkir, AI Facial Unlock, Snapdragon 636, Fingerprint Unlock',
@@ -176,8 +163,7 @@ const product = [
         star: '5',
         ulasan: '249',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/9975efe76cfab461406a1df2e4760a28.jpg', 'https://id-test-11.slatic.net/p/7d81b4de732b5caa4910e9ebfdf90f1a.jpg', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/9975efe76cfab461406a1df2e4760a28.jpg', 'https://id-test-11.slatic.net/p/7d81b4de732b5caa4910e9ebfdf90f1a.jpg', ''],        
     },
     {
         id: 15,
@@ -189,8 +175,7 @@ const product = [
         star: '',
         ulasan: '',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/9c20fa6043e50a7e2a7f5d18f6af5fd1.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/9c20fa6043e50a7e2a7f5d18f6af5fd1.jpg', '', ''],        
     },
     {
         id: 16,
@@ -202,8 +187,7 @@ const product = [
         star: '5',
         ulasan: '59',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/76ce532e6e23428ace5d5e0b06aa48a8.jpg', 'https://id-test-11.slatic.net/p/77dd93fe132388a84d56498d703daa06.jpg', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/76ce532e6e23428ace5d5e0b06aa48a8.jpg', 'https://id-test-11.slatic.net/p/77dd93fe132388a84d56498d703daa06.jpg', ''],        
     },
     {
         id: 17,
@@ -215,8 +199,7 @@ const product = [
         star: '5',
         ulasan: '15',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/d825ecf9e7aadb37c8b47a0a0eaf7505.jpg', 'https://id-test-11.slatic.net/p/45d4ace2b6a2354b31c6caf8b44f360c.jpg', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/d825ecf9e7aadb37c8b47a0a0eaf7505.jpg', 'https://id-test-11.slatic.net/p/45d4ace2b6a2354b31c6caf8b44f360c.jpg', ''],        
     },
     {
         id: 18,
@@ -228,8 +211,7 @@ const product = [
         star: '5',
         ulasan: '2',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/a8300ad6315a0145b5d0e018cd5407c4.jpg', 'https://id-test-11.slatic.net/p/fd93bf56680fcb44346737904f45d4bd.jpg', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/a8300ad6315a0145b5d0e018cd5407c4.jpg', 'https://id-test-11.slatic.net/p/fd93bf56680fcb44346737904f45d4bd.jpg', ''],        
     },
     {
         id: 19,
@@ -241,8 +223,7 @@ const product = [
         star: '5',
         ulasan: '32',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/7f7c87703a0b12b9a990e44728f26f2a.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/7f7c87703a0b12b9a990e44728f26f2a.jpg', '', ''],        
     },
     {
         id: 20,
@@ -254,8 +235,7 @@ const product = [
         star: '5',
         ulasan: '9',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/4321ea3423e20d32fef9743410a8e699.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/4321ea3423e20d32fef9743410a8e699.jpg', '', ''],        
     },
     {
         id: 21,
@@ -267,8 +247,7 @@ const product = [
         star: '4',
         ulasan: '96',
         pertanyaan: '',
-        url: ['https://id-live-01.slatic.net/original/6ae06dfe526b203bc4fb292f8cb3ae50.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-live-01.slatic.net/original/6ae06dfe526b203bc4fb292f8cb3ae50.jpg', '', ''],        
     },
     {
         id: 22,
@@ -280,8 +259,7 @@ const product = [
         star: '4',
         ulasan: '210',
         pertanyaan: '',
-        url: ['https://id-live-01.slatic.net/original/ddec71a6c64fc3d46b4f22cfc5466008.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-live-01.slatic.net/original/ddec71a6c64fc3d46b4f22cfc5466008.jpg', '', ''],        
     },
     {
         id: 23,
@@ -293,8 +271,7 @@ const product = [
         star: '3',
         ulasan: '66',
         pertanyaan: '',
-        url: ['https://my-live-02.slatic.net/original/5944f2a83db5623ed8138a67be75f529.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://my-live-02.slatic.net/original/5944f2a83db5623ed8138a67be75f529.jpg', '', ''],        
     },
     {
         id: 24,
@@ -306,8 +283,7 @@ const product = [
         star: '4',
         ulasan: '12',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/af5c654e20f2b0c8249b5760c0a49000.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/af5c654e20f2b0c8249b5760c0a49000.jpg', '', ''],        
     },
     {
         id: 25,
@@ -319,8 +295,7 @@ const product = [
         star: '5',
         ulasan: '96',
         pertanyaan: '',
-        url: ['https://id-live-01.slatic.net/original/6ae06dfe526b203bc4fb292f8cb3ae50.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-live-01.slatic.net/original/6ae06dfe526b203bc4fb292f8cb3ae50.jpg', '', ''],        
     },
     {
         id: 26,
@@ -332,8 +307,7 @@ const product = [
         star: '4',
         ulasan: '12',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/8892cbcd361de87bd5a446313c02c6c5.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/8892cbcd361de87bd5a446313c02c6c5.jpg', '', ''],        
     },
     {
         id: 27,
@@ -345,8 +319,7 @@ const product = [
         star: '5',
         ulasan: '2',
         pertanyaan: '',
-        url: ['https://id-live-01.slatic.net/original/17be8633c19b1ebc9c7a3af3c44a9efe.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-live-01.slatic.net/original/17be8633c19b1ebc9c7a3af3c44a9efe.jpg', '', ''],        
     },
     {
         id: 28,
@@ -358,8 +331,7 @@ const product = [
         star: '5',
         ulasan: '100',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/d122c8ffdbcb6d0ce1251be6e5e28e19.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/d122c8ffdbcb6d0ce1251be6e5e28e19.jpg', '', ''],        
     },
     {
         id: 29,
@@ -371,8 +343,7 @@ const product = [
         star: '5',
         ulasan: '1',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/da574e0ba55ceee4464ebae61a12abc1.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/da574e0ba55ceee4464ebae61a12abc1.jpg', '', ''],        
     },
     {
         id: 30,
@@ -396,8 +367,7 @@ const product = [
         star: '5',
         ulasan: '54',
         pertanyaan: '',
-        url: ['https://id-live-01.slatic.net/original/f906c7cb8179a56b6cd931e9701fe5d5.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-live-01.slatic.net/original/f906c7cb8179a56b6cd931e9701fe5d5.jpg', '', ''],        
     },
     {
         id: 32,
@@ -409,8 +379,7 @@ const product = [
         star: '4',
         ulasan: '1',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/9209a0e4b334e4bb3cca4d24bd5c8274.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/9209a0e4b334e4bb3cca4d24bd5c8274.jpg', '', ''],        
     },
     {
         id: 33,
@@ -422,8 +391,7 @@ const product = [
         star: '5',
         ulasan: '2',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/7bf192088d01b2dbd3f40cf0a8c5776a.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/7bf192088d01b2dbd3f40cf0a8c5776a.jpg', '', ''],        
     },
     {
         id: 34,
@@ -435,8 +403,7 @@ const product = [
         star: '5',
         ulasan: '4',
         pertanyaan: '',
-        url: ['https://id-live-01.slatic.net/original/945df7362d0f498d95b2031108d75a45.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-live-01.slatic.net/original/945df7362d0f498d95b2031108d75a45.jpg', '', ''],        
     },
     {
         id: 35,
@@ -448,8 +415,7 @@ const product = [
         star: '4',
         ulasan: '5',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/123524c2e14d212b29be111a3dd50a9a.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/123524c2e14d212b29be111a3dd50a9a.jpg', '', ''],        
     },
     {
         id: 36,
@@ -461,8 +427,7 @@ const product = [
         star: '5',
         ulasan: '7',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/eade09842462753fd1bfb0a9fa6115f5.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/eade09842462753fd1bfb0a9fa6115f5.jpg', '', ''],        
     },
     {
         id: 37,
@@ -474,8 +439,7 @@ const product = [
         star: '5',
         ulasan: '2',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/540d915e57d7c2ddea03033260bcd651.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/540d915e57d7c2ddea03033260bcd651.jpg', '', ''],        
     },
     {
         id: 38,
@@ -487,8 +451,7 @@ const product = [
         star: '5',
         ulasan: '2',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/d6b978902456403bd92ed004621ffaff.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/d6b978902456403bd92ed004621ffaff.jpg', '', ''],        
     },
     {
         id: 39,
@@ -500,8 +463,7 @@ const product = [
         star: '5',
         ulasan: '4',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/05ab37949a76d167a35af3135069e831.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/05ab37949a76d167a35af3135069e831.jpg', '', ''],        
     },
     {
         id: 40,
@@ -513,8 +475,7 @@ const product = [
         star: '5',
         ulasan: '8',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/90565298e3bfcefa3b9c4f3933824598.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/90565298e3bfcefa3b9c4f3933824598.jpg', '', ''],        
     },
     {
         id: 41,
@@ -526,8 +487,7 @@ const product = [
         star: '3',
         ulasan: '1',
         pertanyaan: '',
-        url: ['https://id-live-01.slatic.net/original/757490d538b3b2af52af8ac43a790f76.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-live-01.slatic.net/original/757490d538b3b2af52af8ac43a790f76.jpg', '', ''],        
     },
     {
         id: 42,
@@ -539,8 +499,7 @@ const product = [
         star: '5',
         ulasan: '10',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/15d3fb4a07a2118df40fdcb5dbf365e7.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/15d3fb4a07a2118df40fdcb5dbf365e7.jpg', '', ''],        
     },
     {
         id: 43,
@@ -552,8 +511,7 @@ const product = [
         star: '5',
         ulasan: '4',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/7310dd669b65fa3da45ca0cf76669c5d.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/7310dd669b65fa3da45ca0cf76669c5d.jpg', '', ''],        
     },
     {
         id: 44,
@@ -565,8 +523,7 @@ const product = [
         star: '5',
         ulasan: '1',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/1040a94f178c401b5c28fb1a5eade4b0.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/1040a94f178c401b5c28fb1a5eade4b0.jpg', '', ''],        
     },
     {
         id: 45,
@@ -578,8 +535,7 @@ const product = [
         star: '4',
         ulasan: '1',
         pertanyaan: '',
-        url: ['https://my-test-11.slatic.net/p/84ed03e3d7aee3ec07b7ea429a7483cf.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://my-test-11.slatic.net/p/84ed03e3d7aee3ec07b7ea429a7483cf.jpg', '', ''],        
     },
     {
         id: 46,
@@ -591,8 +547,7 @@ const product = [
         star: '5',
         ulasan: '14495000',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/c670b9d7c96bd78446ce2b8da1805e93.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/c670b9d7c96bd78446ce2b8da1805e93.jpg', '', ''],        
     },
     {
         id: 47,
@@ -604,8 +559,7 @@ const product = [
         star: '4',
         ulasan: '2',
         pertanyaan: '',
-        url: ['https://my-live-02.slatic.net/original/0ed58e9f3153af0452a1f677d88efe7e.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://my-live-02.slatic.net/original/0ed58e9f3153af0452a1f677d88efe7e.jpg', '', ''],        
     },
     {
         id: 48,
@@ -617,8 +571,7 @@ const product = [
         star: '4',
         ulasan: '3',
         pertanyaan: '',
-        url: ['https://my-test-11.slatic.net/p/914eaf1f9ee289d5a4300f00d96f80b5.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://my-test-11.slatic.net/p/914eaf1f9ee289d5a4300f00d96f80b5.jpg', '', ''],        
     },
     {
         id: 49,
@@ -630,8 +583,7 @@ const product = [
         star: '5',
         ulasan: '4',
         pertanyaan: '',
-        url: ['https://my-test-11.slatic.net/p/3aa62185623f3c54f2decec41c306909.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://my-test-11.slatic.net/p/3aa62185623f3c54f2decec41c306909.jpg', '', ''],        
     },
     {
         id: 50,
@@ -643,8 +595,7 @@ const product = [
         star: '5',
         ulasan: '6',
         pertanyaan: '',
-        url: ['https://id-test-11.slatic.net/p/ac508011e982414f9321eb96227cd35d.jpg', '', ''],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        url: ['https://id-test-11.slatic.net/p/ac508011e982414f9321eb96227cd35d.jpg', '', ''],        
     },
 
 ]
