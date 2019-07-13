@@ -124,6 +124,7 @@ class CategoryList extends Component {
         }
     }
     render() {
+        window.scrollTo(0, 0);
         let pencarian = 0
         const tampilProduk = this.state.dataProduk.map((produk, index) => {
             if (this.state.idSubcategoriParams) {

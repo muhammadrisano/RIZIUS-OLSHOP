@@ -38,10 +38,11 @@ class Detail extends Component {
         })
     }
     render() {
+        window.scrollTo(0, 0);
         return (
             <div>
                 <div className="container-fluid detail">
-                    <DetailUser addToCart={this.props.addToCart} id={this.props.params} foto={this.state.foto} produk={this.state.produk} setFoto={this.setFoto} jumlah={this.state.jumlah} setJumlah={this.setJumlah} />
+                    <DetailUser cart={this.props.cart} changeJumlah={this.props.changeJumlah} addToCart={this.props.addToCart} id={this.props.params} foto={this.state.foto} produk={this.state.produk} setFoto={this.setFoto} jumlah={this.state.jumlah} setJumlah={this.setJumlah} />
 
                 </div>
                 <div className="mt-4">

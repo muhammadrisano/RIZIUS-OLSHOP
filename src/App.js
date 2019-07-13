@@ -3,11 +3,14 @@ import Routes from './routes/Route';
 
 
 class App extends Component {
+
   render() {
     return (
-        <div>
-          <Routes />
-        </div>
+      <div>
+
+        <Routes />
+
+      </div>
     )
   }
 }

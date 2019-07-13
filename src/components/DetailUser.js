@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
-const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah , id , addToCart }) => {
+const DetailUser = ({ changeJumlah, cart, produk, foto, setFoto, jumlah, setJumlah, id, addToCart }) => {
     const onHover = (e) => {
         setFoto(e.target.src);
     }
@@ -8,11 +9,21 @@ const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah , id , addToCart 
         setJumlah(jumlah + 1)
     }
     const kurangJumlah = () => {
-        setJumlah(jumlah - 1)
+        if (jumlah > 1) {
+            setJumlah(jumlah - 1)
+        }
+
     }
-    const add = () => {
-        let data = {id:id,title:produk.title,url:produk.url[0],price:produk.price,jumlah:document.getElementById('jumlah').value}
-        addToCart(data)
+    const add = (e) => {
+        let data = { id: id, title: produk.title, url: produk.url[0], price: produk.price, jumlah: document.getElementById('jumlah').value }
+        let dataFind = cart.find(item => item.id === id)
+        if(dataFind){
+            let index = cart.indexOf(dataFind)
+            dataFind.jumlah = Number(cart[index].jumlah) + Number(document.getElementById('jumlah').value)
+            changeJumlah(index, dataFind)
+        }else{
+            addToCart(data)
+        }
     }
 
     return (
@@ -68,7 +79,9 @@ const DetailUser = ({ produk, foto, setFoto, jumlah, setJumlah , id , addToCart 
                         </div>
                     </div>
                     <div className="button-detail">
-                        <button className="btn btn-beli">Beli Sekarang</button>
+                        <Link to="/cart">
+                            <button className="btn btn-beli" onClick={add}>Beli Sekarang</button>
+                        </Link>
                         <button className="btn btn-tambah" onClick={add}>Tambah ke Troli</button>
                     </div>
                 </div>
