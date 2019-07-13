@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const DetailUser = ({ changeJumlah, cart, produk, foto, setFoto, jumlah, setJumlah, id, addToCart }) => {
     const onHover = (e) => {
@@ -8,7 +9,10 @@ const DetailUser = ({ changeJumlah, cart, produk, foto, setFoto, jumlah, setJuml
         setJumlah(jumlah + 1)
     }
     const kurangJumlah = () => {
-        setJumlah(jumlah - 1)
+        if (jumlah > 1) {
+            setJumlah(jumlah - 1)
+        }
+
     }
     const add = (e) => {
         let data = { id: id, title: produk.title, url: produk.url[0], price: produk.price, jumlah: document.getElementById('jumlah').value }
@@ -75,7 +79,9 @@ const DetailUser = ({ changeJumlah, cart, produk, foto, setFoto, jumlah, setJuml
                         </div>
                     </div>
                     <div className="button-detail">
-                        <button className="btn btn-beli">Beli Sekarang</button>
+                        <Link to="/cart">
+                            <button className="btn btn-beli" onClick={add}>Beli Sekarang</button>
+                        </Link>
                         <button className="btn btn-tambah" onClick={add}>Tambah ke Troli</button>
                     </div>
                 </div>

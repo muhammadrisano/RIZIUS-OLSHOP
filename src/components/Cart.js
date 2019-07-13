@@ -5,20 +5,24 @@ import BodyUntukmu from './BodyUntukmu';
 function Cart({ cart ,changeJumlah ,deleteData}) {
     const [id,setId] = useState(0)
     let price = 0
-    function add(e){
+    function add(e) {
         let data = cart.find(item => item.id === e.currentTarget.id)
         let index = cart.indexOf(data)
-        data.jumlah = Number(data.jumlah)+1
-        changeJumlah(index,data)
+        data.jumlah = Number(data.jumlah) + 1
+        changeJumlah(index, data)
     }
-    function min(e){
+    function min(e) {
         let data = cart.find(item => item.id === e.currentTarget.id)
         let index = cart.indexOf(data)
-        data.jumlah = Number(data.jumlah)-1
-        changeJumlah(index,data)
+        if (data.jumlah > 1) {
+            data.jumlah = Number(data.jumlah) - 1
+        }
+        changeJumlah(index, data)
     }
     function deleteDatas(e){
-        deleteData(e.currentTarget.id)
+        let data = cart.find(item => item.id === e.currentTarget.id)
+        let index = cart.indexOf(data)
+        deleteData(index)
     }
     return (
         <div>
@@ -26,7 +30,7 @@ function Cart({ cart ,changeJumlah ,deleteData}) {
                 <div style={{ width: "66%", float: "left", marginRight: 10 }}>
                     <div style={{ width: "100%", background: "white", overflow: "hidden", color: "#999", padding: "5px" }}>
                         <div style={{ float: "left" }}>
-                            <input type="checkbox" id="pilih"  />
+                            <input type="checkbox" id="pilih" />
                             <label class={'pilih'} for="pilih">PILIH SEMUA</label>
                         </div>
                         <div style={{ float: "right" }}>
@@ -36,15 +40,15 @@ function Cart({ cart ,changeJumlah ,deleteData}) {
                     <div style={{ width: "100%", background: "white", color: "#999", marginTop: 10 }}>
                         <div style={{ width: "100%", overflow: 'hidden', background: "white", color: "#999", padding: "5px", borderBottom: "0.04px solid #ddd" }}>
                             <div style={{ float: "left" }}>
-                                <input type="checkbox" id="d"  />
+                                <input type="checkbox" id="d" />
                                 <label class={'d'} for="d">Gallery Dimyati <span style={{ position: 'absolute', margin: 5 }} className={'fa fa-chevron-right'}></span></label>
                             </div>
                             <div style={{ cursor: "pointer", float: "right", paddingRight: 10, paddingTop: 5, fontSize: "10pt", color: "#f57224" }}>
                                 Dapatkan Voucher <span className={'fa fa-chevron-down'}></span>
                             </div>
                         </div>
-                        {cart.map((item,index) => {
-                            price += item.price*item.jumlah
+                        {cart.map(item => {
+                            price += item.price * item.jumlah
                             return (
                                 <div style={{ overflow: 'hidden', padding: "20px 0px" }}>
                                     <div style={{ float: 'left', padding: 5 }}>
@@ -82,7 +86,7 @@ function Cart({ cart ,changeJumlah ,deleteData}) {
                     <div style={{ paddingTop: 15 }}>
                         <p style={{ fontSize: "13pt" }}>Ringkasan Pesanan</p>
                         <div style={{ overflow: "hidden" }}>
-                            <p style={{ float: "left", fontSize: "10.5pt" }}>Subtotal (1 Barang)</p>
+                            <p style={{ float: "left", fontSize: "10.5pt" }}>Subtotal</p>
                             <p style={{ float: "right" }}>{`Rp.${price}`}</p>
                         </div>
                         <div style={{ overflow: "hidden" }}>
@@ -98,7 +102,7 @@ function Cart({ cart ,changeJumlah ,deleteData}) {
                         </div>
                         <div style={{ overflow: "hidden" }}>
                             <p style={{ float: "left", margin: 0, marginTop: 20 }}>Total</p>
-                            <p style={{ float: "right", margin: 0, marginTop: 20, color: "#f57224" }}>{`Rp.${price+17500}`}</p>
+                            <p style={{ float: "right", margin: 0, marginTop: 20, color: "#f57224" }}>{`Rp.${price + 17500}`}</p>
                             <p style={{ float: "right", clear: "both", fontSize: "10pt" }}>Termasuk PPN, jika berlaku</p>
                         </div>
                         <div>

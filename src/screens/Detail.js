@@ -38,6 +38,7 @@ class Detail extends Component {
         })
     }
     render() {
+        window.scrollTo(0, 0);
         return (
             <div>
                 <div className="container-fluid detail">
