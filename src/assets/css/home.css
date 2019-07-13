@@ -8,6 +8,7 @@ body{
 .body_promo{
     background-color: rgb(241, 150, 30);
     padding-bottom: 15px;
+    height: 550px;
   
 }
 .container-fluid{
@@ -38,6 +39,16 @@ body{
     color: white;
     padding: 9px 1px;
     text-align: center;
+}
+.body_promo img{
+    margin-right: auto;
+    margin-left: auto;
+    
+
+}
+.card-title-promo{
+    height: 190px ;
+    overflow: hidden;
 }
 .card .card-body h5{
     font-size: 18px;

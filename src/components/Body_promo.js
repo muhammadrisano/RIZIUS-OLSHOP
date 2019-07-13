@@ -8,7 +8,9 @@ let Body_promo = () => {
         return (
             <div className="col-md-2">
                 <div class="card" key={index}>
-                    <img src={produk.url} class="card-img-top" alt="..." />
+                    <div className="card-title-promo">
+                        <img src={produk.url} class="card-img-top" alt="..." />
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title">{produk.title}</h5>
                         <p class="card-text">{produk.subtitle}</p>
@@ -21,7 +23,7 @@ let Body_promo = () => {
         <div className="body_promo">
             <div className="container-fluid">
                 <div className="iklan">
-                    <div className="row">
+                    <div className="row text-center">
                         <img src={baner} alt="" />
                     </div>
                 </div>
